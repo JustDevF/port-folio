@@ -1,0 +1,144 @@
+
+/* Footer main*/
+.containerProjet{
+    height: 12rem;
+    margin-bottom: 12rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    
+}
+
+/*ImageProjet*/
+.containerImageProjet{
+    max-height: 260px;
+    width: 300px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 5rem;
+    margin-right: 0;
+}
+.containerImageProjet img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+
+.btnProjet {
+    margin-right: 0.60rem ;
+    padding: 7px 15px;
+    font-size: 0.70rem;
+    font-weight: lighter;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #016c6b;
+    border: 1px solid #016c6b;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btnProjet:hover {
+    color: #fff;
+    background: #016c6b;
+    border-color: #016c6b;
+}
+
+/*DescProjet*/
+
+.containerDescProjet {
+    padding: 1.50rem 1.50rem;
+    background-color: #ffffff;
+    height: 230px;
+    width: 500px;
+    margin-top: 5rem;
+    margin-left: -15rem;
+}
+.headDescProjet{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.iconesProjet{
+    margin-top: 0.3rem;
+}
+.iconesProjet a{
+    padding-right: 0.50rem;
+    color: #016c6b;
+}
+
+.descProjet p{
+    font-size: 1.60rem;
+    margin-bottom: 0.40rem;
+}
+
+@media screen and (min-width: 500px) {
+    .containerProjet {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .containerDescProjet {
+        height: 70%;
+        width: 50%;
+        padding: 1rem 1rem;
+    }
+    .btnProjet {
+        font-size: 40%;
+    }
+    .descProjet p{
+        font-size: 0.60rem;
+    }
+        
+}
+
+
+@media screen and (min-width: 700px) {
+    .containerImageProjet{
+        width: 55%;
+    }
+    
+    .containerDescProjet {
+        height: 99%;
+        width: 50%;
+        padding: 1rem 1rem;
+    }
+    .btnProjet {
+        font-size: 0.50rem
+    }
+    .descProjet p{
+        font-size: 0.80rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+    .containerProjet{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .containerImageProjet{
+        width: 60%;
+    }
+    
+    
+    .containerDescProjet {
+        height: 110%;
+        width: 50%;
+    }
+    .btnProjet {
+        margin-right: 0.60rem ;
+        padding: 7px 15px;
+        font-size: 0.70rem;
+    }
+    .descProjet p{
+        font-size: 1.10rem;
+    }
+
+}
+
+

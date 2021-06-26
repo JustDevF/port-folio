@@ -1,0 +1,63 @@
+
+  .serviceTitle{
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .underlineService {
+    width: 5rem;
+    height: 0.25rem;
+    background: #016c6b;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .main-content-benefits {
+    padding: 30px 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 19%;
+  }
+  
+  /* Items */
+  .item {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 0 0.50%;
+    text-align: center;
+  }
+  .item .item-image {
+    background: #FFFFFF;
+    box-shadow: 0 0 20px 2px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+  }
+  .FacodeService{
+      height: 25px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      margin-bottom: 2%;
+      
+  }
+  .underlineServiceItem {
+    width: 3rem;
+    height: 0.08rem;
+    background: #016c6b;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2%;
+    margin-bottom: 10%;
+}
+ 
+  @media(min-width: 720px) {
+    .item {
+      float: left;
+      margin-bottom: 0;
+      width: calc(95%/3);
+    }
+  
+    .item:not(:last-child) {
+      margin-right: 2.5%;
+    }
+  }

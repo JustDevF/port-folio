@@ -1,0 +1,398 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  /* Contact*/
+
+ 
+  .main-content-footer{
+    padding: 30px 0px;
+  }
+  
+  /* Items */
+  .itemFooter{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 0 0.50%;
+    text-align: center;
+  }
+
+  .item-imageFooter {
+    width: 100%;
+    height: 150px;
+  }
+  .item-imageFooter :hover{
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+
+  .react-iconsFooter{
+      height: 45px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      color: #016c6b
+  }
+  
+.underlineServiceItem {
+    width: 5rem;
+    height: 0.2rem;
+    background: #016c6b;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 10%;
+}
+.containerFooter{
+    background: #2c2c2c;
+}
+.FooterContact{
+    color: #ffffff;
+    font-weight: normal;
+}
+
+
+@media  screen and (min-width: 720px) {
+    .itemFooter {
+      float: left;
+      margin-bottom: 0;
+      width: calc(95%/3);
+      margin-top: -1rem;
+      margin-bottom: 10px;
+    }
+  
+    .itemFooter:not(:last-child) {
+      margin-right: 2.5%;
+    }
+    .item-imageFooter {
+        width: 100%;
+        height: 100px;
+      }
+    .FooterContact{
+        font-size: 0.80rem;
+    }
+    .react-iconsFooter{
+        height: 30px;
+    }
+    .containerFooter{
+        height: 6rem;
+    }
+
+}
+
+
+@media  screen and (min-width: 500px) {
+    .itemFooter {
+      float: left;
+      margin-bottom: 0;
+      width: calc(95%/3);
+      margin-top: -1rem;
+      margin-bottom: 10px;
+    }
+  
+    .itemFooter:not(:last-child) {
+      margin-right: 2.5%;
+    }
+    .item-imageFooter {
+        width: 100%;
+        height: 100px;
+      }
+    .FooterContact{
+        font-size: 0.60rem;
+    }
+    .react-iconsFooter{
+        height: 25px;
+    }
+    .containerFooter{
+        height: 5rem;
+    }
+    .textCopyRight {
+        font-size: 0.30rem;
+    } 
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    .FooterContact{
+        font-size: 1rem;
+    }
+    .react-iconsFooter{
+        height: 40px;
+    }
+    .containerFooter{
+        height: 7.50rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .FooterContact{
+        font-size: 1.20rem;
+    }
+    .react-iconsFooter{
+        height: 40px;
+    }
+    .containerFooter{
+        height: 8.50rem;
+    }
+}
+/*......*/
+
+/*Resaux sociaux*/
+.containerRs{
+    height: 3.50rem;
+    background: #707070;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0.30rem 15rem;
+}
+.RsTexte{
+    color: #fdfdfd;
+    font-size: 1.50rem;
+    font-weight: lighter;
+    
+}
+
+.RsTexte :hover{
+    color: #016c6b;
+    font-size: 1rem;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.social-iconsFooter {
+    display: flex;
+    font-size: 1.80rem;
+    
+  }
+
+.social-iconsFooter a {
+    margin: 0 0.2rem;
+    color: #ffffff;
+    transition: var(--transition);
+  }
+
+.social-iconsFooter a:hover {
+    color: #016c6b
+}
+
+@media screen and (min-width: 500px) {
+    .containerRs{
+        height: 2rem;
+        padding: 0.30rem 5rem;
+    }
+    .RsTexte{
+        font-size: 0.70rem;
+    }
+
+    .social-iconsFooter {
+        font-size: 0.70rem;
+    }    
+}
+
+
+@media screen and (min-width: 720px) {
+    .containerRs{
+        height: 2rem;
+        padding: 0.30rem 10rem;
+    }
+    .RsTexte{
+        font-size: 0.70rem;
+
+    }
+
+    .social-iconsFooter {
+        font-size: 0.90rem;
+    }    
+}
+
+
+@media screen and (min-width: 1200px) {
+    .containerRs{
+        height: 3.5rem;
+        padding: 0.30rem 13rem;
+    }
+    .RsTexte{
+        font-size: 1rem;
+    }
+
+    .social-iconsFooter {
+        font-size: 1.20rem;
+    }    
+  }
+
+
+
+/* Footer main*/
+.containerFooterMain{
+    height: 10rem;
+    background: #2c2c2c;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0.30rem 8rem;
+}
+
+.footerMainTexte{
+    color: #fdfdfd;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.footerMainList {
+    display: flex;
+    font-size: 1rem;
+    font-weight: lighter;
+    
+  }
+
+.footerMainList p {
+    margin: 0 2rem;
+    color: #ffffff;
+    transition: var(--transition);
+    
+  }
+ .footerMainListTitle{
+     font-size: 1rem;
+ }
+.footerMainList p:hover {
+    color: #016c6b
+}
+
+.underlineItemMain {
+    width: 2.50rem;
+    height: 0.1rem;
+    background: #707070;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.underlineItemMainPro{
+    width: 2.50rem;
+    height: 0.1rem;
+    background: #707070;
+    margin-top: 0;
+    margin-left: 22%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.FooterMainProItem{
+    font-size: 0.6rem;
+}
+@media screen and (min-width: 500px) {
+    .containerFooterMain{
+        padding: 0 2rem;
+    }
+    .FooterMainProItem{
+        font-size: 0.4rem;
+    }
+    .footerMainList p {
+        margin: 0 1rem;    
+      } 
+    
+    .footerMainTexte{   
+        font-size: 0.65rem;
+    }
+
+    .footerMainList {
+        font-size: 1rem;
+    
+        
+    } 
+    .footerMainListTitle{
+        font-size: 0.65rem;
+    }
+    .footerMainListTitle{
+        font-size: 0.50rem;
+    }
+    .textCopyRight{
+        font-size: 0.50rem;
+    }
+        
+}
+
+
+@media screen and (min-width: 700px) {
+    .containerFooterMain{
+        padding: 0.30rem 4rem;
+    }
+    .FooterMainProItem{
+        font-size: 0.5rem;
+    }
+    .footerMainList p {
+        margin: 0 1rem;    
+      } 
+    
+    .footerMainTexte{   
+        font-size: 0.80rem;
+    }
+
+    .footerMainList {
+        font-size: 1rem;      
+    } 
+    .footerMainListTitle{
+        font-size: 0.50rem;
+    }  
+}
+
+
+@media screen and (min-width: 900px) {
+    .containerFooterMain{
+        padding: 0.30rem 9rem;
+    }
+    .FooterMainProItem{
+        font-size: 0.5rem;
+    }
+    .footerMainList p {
+        margin: 0 1rem;  
+      } 
+    
+    .footerMainTexte{   
+        font-size: 0.80rem;
+    }
+
+    .footerMainList {
+        font-size: 1rem;
+        
+    } 
+    .footerMainListTitle{
+        font-size: 0.80rem;
+    }
+    .textCopyRight{
+        font-size: 0.60rem;
+        
+    }
+     
+}
+
+
+@media screen and (min-width: 1200px) {
+    .FooterMainProItem{
+        font-size: 0.6rem;
+    }    
+}
+
+  /*Copy right*/
+.containerCopyRight{
+    height: 3rem;
+    background: #050505;;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.textCopyRight{
+    font-size: 0.65rem;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
