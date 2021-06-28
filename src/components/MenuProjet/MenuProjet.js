@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './MenuProjet.css'
 //Importer les composants 
 import Menu from './Menu';
@@ -13,6 +13,10 @@ const MenuProjet = () => {
  const [menuItems, setMenuItems] = useState(items);
  const [categories, setCategories] = useState(allCategories);
 
+ useEffect(() => {
+  setCategories(allCategories) 
+ }, []);
+ 
  //Filtre les menus par catégorie 
  //Mise à jour de l'état 
  const filterItems = (category) => {
@@ -31,7 +35,7 @@ const MenuProjet = () => {
              <h2>Mes projets</h2>
              <div className="underlineMenuProjet"></div>
           </div>
-          <Categories categories={allCategories} filterItems={filterItems} />
+          <Categories categories={categories} filterItems={filterItems} />
           <Menu items={menuItems}/>
         </section>
       </main>

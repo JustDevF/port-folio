@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import data from './data';
 import SingleLangage from './Langage';
 import'./Langages.css'
@@ -6,6 +6,10 @@ import'./Langages.css'
 //Composant 
 const Langages = () =>{
   const [langage, setLangage] = useState(data);
+  
+  useEffect(() => {
+    setLangage(data)
+  }, []);
 
   return (
     <div>
