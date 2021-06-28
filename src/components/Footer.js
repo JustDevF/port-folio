@@ -11,24 +11,24 @@ const Footer = () => {
         <section className="footer">
             {/*Contatc*/}
             <div className="containerFooter">
-                <section role="region" class="main-content-footer">
+                <section className="main-content-footer">
                     <ul>
-                        <li class="itemFooter">
-                            <div class="item-imageFooter">
+                        <li className="itemFooter">
+                            <div className="item-imageFooter">
                                 <FiPhoneCall className="react-iconsFooter"/>
                                 <h3 className="FooterContact">0751349885 </h3>
                                 <div className='underlineServiceItem'></div>
                             </div>
                         </li>
-                        <li class="itemFooter">
-                            <div class="item-imageFooter">
+                        <li className="itemFooter">
+                            <div className="item-imageFooter">
                                 <IoMailOpenOutline className="react-iconsFooter"/>
                                 <h3 className="FooterContact">justinkatasi.jk@gmail.com </h3>
                                 <div className='underlineServiceItem'></div>
                             </div>
                         </li>
-                        <li class="itemFooter">
-                            <div class="item-imageFooter">
+                        <li className="itemFooter">
+                            <div className="item-imageFooter">
                                 <FiMapPin className="react-iconsFooter"/>
                                 <h3 className="FooterContact">Paris France</h3>
                                 <div className='underlineServiceItem'></div>

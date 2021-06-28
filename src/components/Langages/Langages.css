@@ -1,6 +1,5 @@
 .langageTitle{
   text-align: center;
-  margin-bottom: 5px;
 }
 
 /* section */
@@ -9,6 +8,16 @@
   margin: 0 auto;
   max-width: var(--max-width);
 }
+
+.underlineLangages{
+  width: 5rem;
+  height: 0.25rem;
+  background: #016c6b;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7rem;
+}
+
 
 @media screen and (min-width: 992px) {
   .sectionLangage {
@@ -33,14 +42,16 @@ langages
 .containerLangage {
   width: 90vw;
   margin: 5rem auto;
-  background: #016c6b;
+  background: #fbfbfb;
   border-radius: var(--radius);
   padding: 2rem 1rem;
   max-width: var(--fixed-width);
   display: grid;
   gap: 1rem 2rem;
-  margin-top: -7rem;
+  margin-top: -70rem;
+  box-shadow: 0 0 20px 2px rgb(0 0 0 / 20%);
 }
+
 .containerLangage h3 {
   line-height: 1.2;
   font-weight: 500;
@@ -64,7 +75,7 @@ langages
   line-height: 1.5;
 }
 .langage p {
-  color: var(--clr-grey-3);
+  color: #888888;
   margin-bottom: 0;
   margin-top: 0.5rem;
 }
@@ -90,3 +101,25 @@ langages
   align-self: center;
   min-width: 2rem;
 }
+
+@media screen and (min-width: 500px) {
+  
+.containerLangage {
+  margin-top: -24rem;
+}
+.mainLangage {
+  margin-bottom: -20rem;
+}
+}
+@media screen and (min-width: 1200px) {
+  .containerLangage {
+    margin-top: 0rem;
+  }
+  .underlineLangages{
+    margin-bottom: 0rem;
+  }
+  .mainLangage {
+    margin-bottom: 0;
+  }
+}
+

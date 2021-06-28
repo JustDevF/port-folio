@@ -10,31 +10,31 @@ const Services = () => {
             <h2>Services</h2>
             <div className='underlineService'></div>
          </div>
-        <section role="region" class="main-content-benefits">
-        <div class="container">
-            <ul class="clearfix">
-            <li class="item">
-                <div class="item-image">
+        <section  className="main-content-benefits">
+        <div className="container">
+            <ul className="clearfix">
+            <li className="item">
+                <div className="item-image">
                     <FaCode className="FacodeService"/>
-                    <h4>Developpement Web </h4>
+                    <h4 className="ServiceTitleCap">Développement Web </h4>
                     <div className='underlineServiceItem'></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at nunc id ligula sollicitudin finibus eget id leo.</p>
+                    <p>Je créer des applications web du back-End au front-End en choisissant la technologie la plus adaptée.En association avec React pour la partie front, Node.js pour le back-End ce qui nous permet d'offrir une solution full stack basée sur un seul et même langage : javascript. </p>
                 </div>
             </li>
-            <li class="item">
-                <div class="item-image">
+            <li className="item">
+                <div className="item-image">
                     <FaMobileAlt className="FacodeService"/>
-                    <h4>Developpement Mobile </h4>
+                    <h4 className="ServiceTitleCap">Développement Mobile </h4>
                     <div className='underlineServiceItem'></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at nunc id ligula sollicitudin finibus eget id leo.</p>
+                    <p>Grâce à React Native, je développe des applications mobiles multiplateforme iOS et Android. ce qui permet de construire une architecture solide et une experiénce utilisateur de haute qualités </p>
                 </div>
             </li>
-            <li class="item">
-                <div class="item-image">
+            <li className="item">
+                <div className="item-image">
                      <FaLaptop className="FacodeService"/>
-                     <h4>Developpement Logiciel</h4>
+                     <h4 className="ServiceTitleCap">Design UX/UI</h4>
                      <div className='underlineServiceItem'></div>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at nunc id ligula sollicitudin finibus eget id leo.</p>
+                     <p>Conception des interfaces utilisateur agréable par le biais duquel l'utilisateur entre en contact avec le produit. Objectif de diminuer au maximum les interrogations que peut avoir un utilisateurs lors de sa navigation sur un site web.  </p>
                 </div>
             </li>
             </ul>

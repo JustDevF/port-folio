@@ -17,7 +17,7 @@ const Presentation = () => {
                 <h1 className="hero-Name">JUSTIN KATASI
                 </h1>
                 <p className="hero-NameSubTitle">
-                    Developpeur Freelance Web et Mobile
+                    Développeur Freelance Web et Mobile
                 </p>
             <div>
             <button className="btnHero">

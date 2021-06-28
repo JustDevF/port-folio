@@ -65,8 +65,8 @@ const Navbar = () => {
                   );
               })}
           </ul>
-          <div className="NavbarContact">
-              
+          <div className="navbarContact">
+              <a href="contact" className="navbarContactLikn">Contactez-Moi</a>
           </div>
       </div>
       </nav>

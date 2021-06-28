@@ -10,7 +10,7 @@ const Langages = () =>{
   return (
     <div>
         <h2 className="langageTitle">Langages Informatique</h2>
-        <div class="underlineMenuProjet"></div>
+        <div className="underlineLangages"></div>
         <div className="mainLangage">
           <div className='containerLangage'>
             <section className='info'>

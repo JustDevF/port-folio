@@ -6,7 +6,7 @@ const Technologies = () => {
  return (
     <main>
         <h2 className="langageTitle">Technologies</h2>
-        <div class="underlineMenuProjet"></div>
+        <div className="underlineMenuProjet"></div>
         {/*Première tech */}
         <div  className="containerTechnologie">
             <div className="TextTechnologie">

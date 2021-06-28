@@ -26,7 +26,7 @@ const Contact = () => {
                       <input className="form-control" type="phone" placeholder="Numéro de Téléphone" />
                       <input className="form-control" type="text" placeholder="Le service souhaité" />
                       <textarea placeholder="Votre message"></textarea>
-                      <button type="submit" class="button-submit">Envoyer le message</button>   
+                      <button type="submit" className="button-submit">Envoyer le message</button>   
                     </form>
             </section>
             </div>             
