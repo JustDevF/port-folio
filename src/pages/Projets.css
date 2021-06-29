@@ -73,16 +73,20 @@
     margin-bottom: 0.40rem;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
     .containerProjet {
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 5rem; 
+        margin-top: 0;
+    }
+    .containerImageProjet{
+        width: 75%;
     }
     
-    
     .containerDescProjet {
-        height: 70%;
-        width: 50%;
+        height: 90%;
+        width: 65%;
         padding: 1rem 1rem;
     }
     .btnProjet {
@@ -119,6 +123,8 @@
     .containerProjet{
         margin-left: 10rem;
         margin-right: 10rem;
+        margin-bottom: 10rem; 
+        margin-top: 3rem;
     }
 
     .containerImageProjet{

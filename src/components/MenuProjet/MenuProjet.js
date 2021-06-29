@@ -32,7 +32,7 @@ const MenuProjet = () => {
       <main>
         <section className="menu sectionMenuProjet">
           <div className="titleMenu">
-             <h2>Mes projets</h2>
+             <h2>Projets</h2>
              <div className="underlineMenuProjet"></div>
           </div>
           <Categories categories={categories} filterItems={filterItems} />

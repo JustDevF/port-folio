@@ -149,13 +149,13 @@ textarea:focus{
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
     /*Contact*/
     .containerContact {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .ContainerHeader{
         padding: 1rem 1rem;

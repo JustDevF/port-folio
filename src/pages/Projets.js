@@ -8,7 +8,7 @@ const Projet = () => {
   return (
       <main>
         <div className="serviceTitle">
-          <h2>Mes Projets</h2>
+          <h2>Projets</h2>
           <div className='underlineService'></div>
         </div>
         {/*Récup de données */}
