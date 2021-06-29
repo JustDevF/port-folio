@@ -1,21 +1,4 @@
 [[redirects]]
-    from = "/"
-    to = "/https://justinkatasi-port-folio.netlify.app/"
-    status = 301
-    force = false
-[[redirects]]
-    from = "https://justinkatasi-port-folio.netlify.app/"
-    to = "/projets"
-[[redirects]]
-    from = "https://justinkatasi-port-folio.netlify.app/"
-    to = "/contact"
-[[redirects]]
-    from = "https://justinkatasi-port-folio.netlify.app/"
-    to = "/about"
-[[redirects]]
-    from = "https://justinkatasi-port-folio.netlify.app/"
-    to = "/services"
-[[redirects]]
-    from = "https://justinkatasi-port-folio.netlify.app/"
-    to = "*"
-  
+  from = "/*"
+  to = "/index.html" 
+  status = 200 
