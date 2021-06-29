@@ -110,9 +110,18 @@ nav {
   height: 10rem;
 }
 
-
+@media screen and (min-width: 350px){
+  .navbarContactLikn{
+    display: none;
+  }
+}
 
 @media screen and (min-width: 500px){
+  .navbarContactLikn{
+    display: none;
+  }
+}
+@media screen and (min-width: 700px){
   .navbarContactLikn{
     display: none;
   }
