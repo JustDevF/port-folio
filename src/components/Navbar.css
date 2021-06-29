@@ -110,6 +110,8 @@ nav {
   height: 10rem;
 }
 
+
+
 @media screen and (min-width: 500px){
   .navbarContactLikn{
     display: none;
@@ -156,7 +158,6 @@ nav {
   .navbarContactLikn{
     display: flex;
   }
-
   
 }
 @media screen and (min-width: 992px) {
@@ -166,6 +167,9 @@ nav {
   .links a:hover {
     background: transparent;
     color: #016c6b;
+  }
+  .navbarContactLikn{
+    display: flex;
   }
 
   
