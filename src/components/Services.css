@@ -68,9 +68,12 @@
     margin-bottom: 0.50rem;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
   .main-content-benefits {
-    padding: 3rem 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 0;
   }
   .item {
     width: calc(90%/3);
@@ -82,10 +85,12 @@
   }
 
   .item-image p{
-    font-size: 0.80rem;
+    font-size: 0.90rem;
+    color: #999999;
   }
   .ServiceTitleCap{
     font-size: 1.50rem;
+    color: #272727;
   }
 }
 

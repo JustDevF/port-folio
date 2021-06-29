@@ -79,50 +79,88 @@ margin-right: 5rem;
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
     /*prémière technologie*/
-    .TextTittleTechnologie{
+    .containerTechnologie{
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    .TextTechnologie{
         font-size: 1rem;
+        margin: 1rem 2rem;
+
+    }
+    .TextTittleTechnologie{
+        font-size: 1.50rem;
+        color: #3f3f3f;
     }
     .textDescTechnologie li{
-        font-size: 12px;
+        font-size: 13px;
     }
     .containerImageTechnologie{
-        margin-left: 14rem; 
+        margin-top: -2rem;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    
     }
     .ImageTechnologie{
-        height: 100px;
+        height: 200px;
     }
+
     /*deuxième technologie*/
-    .textDescTechnologie2 li{
-        font-size: 12px;
-    }
     .containerImageTechnologie2{
-     margin-left: 5rem;
-    }
-    .ImageTechnologie2{
-        height: 100px;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
     }
     .TextTechnologie2{
-        margin-left: 10rem ;
+        font-size: 1rem;
+        margin: 1rem 2rem;
     }
+
+    .textDescTechnologie2 li{
+        font-size: 13px;
+    }
+    .containerImageTechnologie2{
+        margin-top: 0;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    
    /*Troisième tech*/
+   .containerImageTechnologie3{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    }
+    .TextTechnologie3{
+        font-size: 1rem;
+        margin: 1rem 2rem;
+    }
+
     .textDescTechnologie3 li{
-        font-size: 12px;
+        font-size: 13px;
     }
     .containerImageTechnologie3{
-        margin-left: 18rem;
-
+        margin-top: 0;
+        margin-bottom: 2rem;
+        display: flex;
+        align-content: center;
+        justify-content: center;
     }
     .ImageTechnologie3{
         height: 10px;
     }
-
-    .containerTechnologie{
-        display: inline;
-    }
     
 }
+
 
 @media screen and (min-width: 700px) {
     /*prémière technologie*/
@@ -163,9 +201,6 @@ margin-right: 5rem;
         height: 150px;
     }
 
-    .containerTechnologie{
-        display: inline;
-    } 
 }
 
 @media screen and (min-width: 800px) {

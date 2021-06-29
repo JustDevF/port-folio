@@ -104,20 +104,21 @@
     display: block;
   }
  
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 400px) {
     .menu-itemMenu{
       gap: 0 1.25rem;
       max-width: 30rem;
     }
     .photoMenu {
-      height: 215px;
+      height: 235px;
       margin-bottom: 1rem;
     }
     
     .section-centerMenu {
-      padding: 0 4rem;
+      padding: 0 1rem;
       margin-top: -3rem;
       margin-left: -0.50rem;
+      margin-bottom: 2rem;
     }
   
   }

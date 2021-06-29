@@ -102,13 +102,19 @@ langages
   min-width: 2rem;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 400px) {
   
 .containerLangage {
   margin-top: -24rem;
 }
 .mainLangage {
   margin-bottom: -20rem;
+}
+.langageTitle{
+  margin-bottom: 1rem;
+}
+.underlineLangages{
+  margin-bottom: 10rem;
 }
 }
 @media screen and (min-width: 1200px) {

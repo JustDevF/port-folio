@@ -25,9 +25,6 @@ const Technologies = () => {
         </div>
         {/*Deuxième tech */}
         <div  className="containerTechnologie">
-            <div className="containerImageTechnologie2">
-                <img className="ImageTechnologie" src="./TechImages/redux_illustrator.png" alt="imageReact"/>
-            </div>
             <div className="TextTechnologie2">
                 <h3 className="TextTittleTechnologie">Framwork Redux</h3>
                 <ul className="textDescTechnologie2">
@@ -38,6 +35,9 @@ const Technologies = () => {
                     <li>comme React ou Angular pour la construction d'interfaces utilisateur. </li>
                     <li>Semblable à l'architecture Flux</li>
                 </ul>
+            </div>
+            <div className="containerImageTechnologie2">
+                <img className="ImageTechnologie" src="./TechImages/redux_illustrator.png" alt="imageReact"/>
             </div>              
         </div>
         {/*Troixième tech */}
