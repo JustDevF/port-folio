@@ -80,8 +80,9 @@
   }
   
   .item .item-image {
-    width: 420px;
-    height: 340px;
+    width: 380px;
+    height: 300px;
+    margin-left: 1rem;
   }
 
   .item-image p{
