@@ -25,9 +25,9 @@ const Technologies = () => {
         </div>
         {/*Deuxième tech */}
         <div  className="containerTechnologie">
-            <div className="TextTechnologie2">
+            <div className="TextTechnologie">
                 <h3 className="TextTittleTechnologie">Framwork Redux</h3>
-                <ul className="textDescTechnologie2">
+                <ul className="textDescTechnologie">
                     <li>Redux est une bibliothèque open-source JavaScript</li>
                     <li>de gestion d'état pour applications web.</li>
                     <li>Elle facilite la gestion d'état de l'application,</li>
@@ -36,15 +36,15 @@ const Technologies = () => {
                     <li>Semblable à l'architecture Flux</li>
                 </ul>
             </div>
-            <div className="containerImageTechnologie2">
+            <div className="containerImageTechnologie">
                 <img className="ImageTechnologie" src="./TechImages/redux_illustrator.png" alt="imageReact"/>
             </div>              
         </div>
         {/*Troixième tech */}
         <div  className="containerTechnologie">
-            <div className="TextTechnologie3">
+            <div className="TextTechnologie">
                 <h3 className="TextTittleTechnologie">NodeJs</h3>
-                <ul className="textDescTechnologie3">
+                <ul className="textDescTechnologie">
                     <li>Node.js est une plateforme logicielle libre en JavaScript,</li>
                     <li>orientée vers les applications réseau.</li>
                     <br />
@@ -56,7 +56,7 @@ const Technologies = () => {
                     <li>permettant d'éviter les attentes.</li>
                 </ul>
             </div> 
-            <div className="containerImageTechnologie3">
+            <div className="containerImageTechnologie">
                 <img className="ImageTechnologie" src="./TechImages/node_illustrator.png" alt="imageReact"/>
             </div>             
         </div>

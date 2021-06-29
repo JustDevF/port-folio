@@ -170,7 +170,9 @@
 
 
 @media screen and (min-width: 1200px) {
-  
+  .hero-center {
+    margin-top: -3rem;
+  }
   .hero-images {
     align-self: center;
   }
@@ -182,6 +184,9 @@
 
 
 @media screen and (min-width: 1400px) {
+  .hero-center {
+    margin-top: -5rem;
+  }
   .phone-img {
     width:  28rem;
   }
