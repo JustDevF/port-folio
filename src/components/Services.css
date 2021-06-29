@@ -40,6 +40,7 @@
 
   .ServiceTitleCap{
     font-size: 1rem;
+    color: #a3a3a3;
   }
   .item-image p{
     padding: 0 1rem;
@@ -92,7 +93,6 @@
   }
   .ServiceTitleCap{
     font-size: 1.50rem;
-    color: #272727;
   }
 }
 
