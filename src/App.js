@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Projet from './pages/Projets'
+import Services from './components/Services'
 import Error from './pages/Error'
 
 //import components
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route path="/projets">
           <Projet />
+        </Route>
+        <Route path="/services">
+          <Services />
         </Route>
         <Route path="*">
           <Error />

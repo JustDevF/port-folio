@@ -10,7 +10,7 @@ export const links = [
   },
   {
     id: 2,
-    url: '/about',
+    url: '/Services',
     text: 'Services',
   },
   {
