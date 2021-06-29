@@ -17,21 +17,19 @@ const Footer = () => {
                             <div className="item-imageFooter">
                                 <FiPhoneCall className="react-iconsFooter"/>
                                 <h3 className="FooterContact">0751349885 </h3>
-                                <div className='underlineServiceItem'></div>
                             </div>
                         </li>
                         <li className="itemFooter">
                             <div className="item-imageFooter">
                                 <IoMailOpenOutline className="react-iconsFooter"/>
                                 <h3 className="FooterContact">justinkatasi.jk@gmail.com </h3>
-                                <div className='underlineServiceItem'></div>
+
                             </div>
                         </li>
                         <li className="itemFooter">
                             <div className="item-imageFooter">
                                 <FiMapPin className="react-iconsFooter"/>
                                 <h3 className="FooterContact">Paris France</h3>
-                                <div className='underlineServiceItem'></div>
                             </div>
                         </li>
                     </ul>
@@ -58,10 +56,9 @@ const Footer = () => {
             {/*Footer main */}
             <div  className="containerFooterMain">
                    <div className="footerMainTexte">
-                       Freelance Full-Stack Dev
+                        Full-Stack Dev
                        <div className='underlineItemMain'></div>
                        <p>L'efficacité et l'expérience </p>
-                       <p>dans le dévélopement Full-Stack</p>
                     </div>
                    
                    <div className="footerProd">

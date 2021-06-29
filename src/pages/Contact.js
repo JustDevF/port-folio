@@ -12,14 +12,14 @@ const Contact = () => {
                 <h3 className="textTittleContact">100% Satisfaction</h3>
                 <h3 className="textTittleContact">Garantie</h3>
                 <ul className="textDescContact">
-                    <li><VscVerified/> Nous préparons la proposition</li>
-                    <li><VscVerified/> On en discute ensemble</li>
-                    <li><VscVerified/> Commençons le projet</li>
+                    <li><VscVerified/> Une proposition</li>
+                    <li><VscVerified/> Une discution ensemble</li>
+                    <li><VscVerified/> Le lancement du projet</li>
                 </ul>
             </div> 
             <div className="containerForm">
                 <section>
-                    <h2>Me contacter</h2>
+                    <h2>Contact</h2>
                     <form className="containerForm-form">
                       <input className="form-control" type="name" placeholder="Nom complet" />
                       <input className="form-control" type="email" placeholder="Adresse Email" />

@@ -170,6 +170,8 @@ textarea:focus{
      /*Formulaire*/
      .containerForm {
         margin-top: 5rem;
+        padding-left: 1rem;
+        padding-right:1rem ;
     }
 
     .containerForm-form {
