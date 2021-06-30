@@ -7,7 +7,10 @@ const About = () => {
   return (
     <section >
       <h1>A-propos de moi</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugiat quis maiores, ullam saepe repellendus cumque voluptate consequatur quisquam adipisci modi harum, distinctio perspiciatis minima explicabo aspernatur corporis pariatur minus!</p>
+        <p>Bonjour, je m'appelle Justin Katasi et je suis un développeur full-Stack junior 
+          Je construis carrière à partir de ce que j'aime vraiment comme une passion depuis le collège. 
+          J’ai perfectionné mes compétences en tant que développeur Full-Stack Web, mobile en créant des applications Web et mobile avec Java, Python, PHP, JavaScript, React, Node, HTML, CSS, MySQL. 
+        </p>
     </section>
   )
 }

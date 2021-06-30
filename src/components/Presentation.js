@@ -1,5 +1,7 @@
 import React from 'react'
 import cvImage from './impage-cv.png';
+import monCv from './cv_justin_katasi.pdf'
+
 import './hero.css'
 
 //Le composant
@@ -24,7 +26,7 @@ const Presentation = () => {
                 Détails
             </button>
             <button className="btnHero">
-                CV
+                <a href={monCv} download>Mon CV</a>
             </button>
             </div>
             </article>

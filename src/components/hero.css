@@ -42,6 +42,13 @@
   border: 1px solid #016c6b;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.btnHero a{
+  color: #016c6b;
+}
+.btnHero a:hover{
+  color: #fff;
+}
+
 .btnHero:hover {
     color: #fff;
     background: #016c6b;
