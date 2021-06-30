@@ -2,6 +2,7 @@ import React  from 'react'
 import './Contact.css'
 import { VscVerified } from 'react-icons/vsc'
 import emailjs from 'emailjs-com'
+import { Link } from 'react-router-dom'
 //La page Contact 
 
 //Le composant de la page
@@ -21,7 +22,6 @@ const Contact = () => {
       e.target.reset()
   }
 
-
   return (
     <main>
       <div  className="containerContact">
@@ -37,13 +37,13 @@ const Contact = () => {
             <div className="containerForm">
                 <section>
                     <h2>Contact</h2>
-                    <form className="containerForm-form"  onSubmit={sendEmail}>
+                    <form className="containerForm-form"  onSubmit={sendEmail} >
                       <input className="form-control" type="name" placeholder="Nom complet" required name="name"/>
                       <input className="form-control" type="email" placeholder="Adresse Email" required name="email" />
                       <input className="form-control" type="phone" placeholder="Téléphone" required name="phone"/>
                       <input className="form-control" type="text" placeholder="Projet" required name="project"/>
                       <textarea placeholder="Message" name="message" ></textarea>
-                      <button type="submit" className="button-submit">Envoyer le message</button>   
+                      <Link to="/contactSubmit"><button type="submit" className="button-submit">Envoyer le message</button></Link>
                     </form>
             </section>
             </div>             

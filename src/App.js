@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 import Projet from './pages/Projets'
 import Services from './components/Services'
 import Error from './pages/Error'
+import ContactSubmit from './pages/ContactSubmit'
 
 //import components
 import Navbar from './components/Navbar'
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/contactSubmit">
+          <ContactSubmit />
         </Route>
         <Route path="/projets">
           <Projet />
