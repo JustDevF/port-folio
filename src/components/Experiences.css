@@ -56,7 +56,7 @@
     background: transparent;
     border-color: transparent;
     text-transform: capitalize;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     letter-spacing: var(--spacing);
     margin: 0 0.5rem;
     transition: var(--transition);
@@ -117,6 +117,7 @@
     }
     .job-btn {
       margin-bottom: 1rem;
+      font-size: 0.90rem;
     }
     .active-btn {
       box-shadow: -2px 0 #016c6b;

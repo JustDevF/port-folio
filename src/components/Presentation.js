@@ -1,6 +1,7 @@
 import React from 'react'
 import cvImage from './impage-cv.png';
 import monCv from './cv_justin_katasi.pdf'
+import { Link } from 'react-router-dom'
 
 import './hero.css'
 
@@ -22,9 +23,7 @@ const Presentation = () => {
                     Développeur Freelance Web et Mobile
                 </p>
             <div>
-            <button className="btnHero">
-                Détails
-            </button>
+            <Link to={`/about`}> <button className="btnHero">Détails </button></Link>
             <button className="btnHero">
                 <a href={monCv} download>Mon CV</a>
             </button>
