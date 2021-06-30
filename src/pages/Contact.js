@@ -1,10 +1,27 @@
-import React from 'react'
+import React  from 'react'
 import './Contact.css'
 import { VscVerified } from 'react-icons/vsc'
+import emailjs from 'emailjs-com'
 //La page Contact 
 
 //Le composant de la page
 const Contact = () => {
+
+  
+  //API emailjs
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_bahpx0t', 'template_7legbyy', e.target, 'user_NOmEJNy2vqsT2YJhWiRJ5')
+      .then((result) => {
+          //console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
+
+
   return (
     <main>
       <div  className="containerContact">
@@ -20,19 +37,19 @@ const Contact = () => {
             <div className="containerForm">
                 <section>
                     <h2>Contact</h2>
-                    <form className="containerForm-form">
-                      <input className="form-control" type="name" placeholder="Nom complet" />
-                      <input className="form-control" type="email" placeholder="Adresse Email" />
-                      <input className="form-control" type="phone" placeholder="Numéro de Téléphone" />
-                      <input className="form-control" type="text" placeholder="Le service souhaité" />
-                      <textarea placeholder="Votre message"></textarea>
+                    <form className="containerForm-form"  onSubmit={sendEmail}>
+                      <input className="form-control" type="name" placeholder="Nom complet" required name="name"/>
+                      <input className="form-control" type="email" placeholder="Adresse Email" required name="email" />
+                      <input className="form-control" type="phone" placeholder="Téléphone" required name="phone"/>
+                      <input className="form-control" type="text" placeholder="Projet" required name="project"/>
+                      <textarea placeholder="Message" name="message" ></textarea>
                       <button type="submit" className="button-submit">Envoyer le message</button>   
                     </form>
             </section>
             </div>             
       </div>
     </main>
-  )
-}
+    )
+  }
 
 export default Contact

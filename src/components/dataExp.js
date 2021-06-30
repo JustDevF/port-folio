@@ -5,35 +5,32 @@ export const data = [
     title: "Developpeur Web Full Stack",
     dates: "Septembre 2017 - Présent",
     duties: [
-    "Tote bag sartorial mlkshk air plant vinyl banjo lumbersexual poke leggings offal cold-pressed brunch neutra. Hammock photo booth live-edge disrupt.",
-    "Post-ironic selvage chambray sartorial freegan meditation. Chambray chartreuse kombucha meditation, man bun four dollar toast street art cloud bread live-edge heirloom.",
-    "Butcher drinking vinegar franzen authentic messenger bag copper mug food truck taxidermy. Mumblecore lomo echo park readymade iPhone migas single-origin coffee franzen cloud bread tilde vegan flexitarian."
+    "Développer des applications Web à pile complète qui traitent, analysent et rendent les données visuellement.",
+    "Assurer la liaison avec les développeurs back-end, les développeurs front-end, les testeurs d'assurance qualité et le CTO selon les besoins.",
+    "Gestion des mises à jour urgentes, y compris les modifications de contenu et les mises à niveau de la base de données à planifié, écrit et débogué des applications Web et des logiciels avec une précision totale"
     ],
-    company: "WEB"
+    company: "Full-Stack"
     },
     {
     id: "recIL6mJNfWObonls",
     order: 2,
-    title: "Developpeur Mobile Full stack",
+    title: "Developpeur Mobile",
     dates: "Mai 2019 - Présent",
     duties: [
-    "Hashtag drinking vinegar scenester mumblecore snackwave four dollar toast, lumbersexual XOXO. Cardigan church-key pabst, biodiesel vexillologist viral squid.",
-    "Franzen af pitchfork, mumblecore try-hard kogi XOXO roof party la croix cardigan neutra retro tattooed copper mug. Meditation lomo biodiesel scenester",
-    "Fam VHS enamel pin try-hard echo park raw denim unicorn fanny pack vape authentic. Helvetica fixie church-key, small batch jianbing messenger bag scenester +1",
-    "Fam VHS enamel pin try-hard echo park raw denim unicorn fanny pack vape authentic. Helvetica fixie church-key, small batch jianbing messenger bag scenester +1"
+    "L'utilisation de Java, Python ave le framework Android, le framework Flutter. Les développements de applications mobiles hybrides et multiplateforme.",
+    "Assurer le développement des produits dans les délais et un travail de qualité pour apporter une amélioration continue.",
+    "Fournir une expertise technique dans plusieurs domaines de développement d'applications grâce aux technologies : react-native, redux, sql, flutter."
     ],
-    company: "MOBILE"
+    company: "Mobile"
     },
     {
     id: "rec61x18GVY99hQq5",
     order: 1,
-    title: "Developpeur Java Python",
+    title: "Design UX/UI",
     dates: "Juillet 2020 - à présent",
     duties: [
-    "I'm baby woke mumblecore stumptown enamel pin. Snackwave prism pork belly, blog vape four loko sriracha messenger bag jean shorts DIY bushwick VHS. Banjo post-ironic hella af, palo santo craft beer gluten-free.",
-    "YOLO drinking vinegar chambray pok pok selfies quinoa kinfolk pitchfork street art la croix unicorn DIY. Woke offal jianbing venmo tote bag, palo santo subway tile slow-carb post-ironic pug ugh taxidermy squid.",
-    "Pour-over glossier chambray umami 3 wolf moon. Iceland kale chips asymmetrical craft beer actually forage, biodiesel tattooed fingerstache. Pork belly lomo man braid, portland pitchfork locavore man bun prism."
+    "La création des interfaces utilisateur modernes et progressives. Faire une traduction artistique globale, et de mettre en page les contenus à destination d’écrans (web, mobiles, tablettes) en lien avec le contenu du site. ainsi la conception de l’identité visuelle d’un site."
     ],
-    company: "LOGICIEL"
+    company: "Design UI"
     }
     ]

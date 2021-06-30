@@ -17,21 +17,21 @@ const Services = () => {
                 <div className="item-image">
                     <FaCode className="FacodeService"/>
                     <h4 className="ServiceTitleCap">Développement Web </h4>
-                    <p>Je créer des applications web du back-End au front-End en choisissant la technologie la plus adaptée.En association avec React pour la partie front, Node.js pour le back-End ce qui nous permet d'offrir une solution full stack basée sur un seul et même langage : javascript. </p>
+                    <p>Création des applications web du back-End au front-End en choisissant les technologies les plus adaptées en association avec React pour la partie front et Node.js pour le back-End. Ce qui me permet d'offrir une solution full stack basée sur un seul et même langage : javascript </p>
                 </div>
             </li>
             <li className="item">
                 <div className="item-image">
                     <FaMobileAlt className="FacodeService"/>
                     <h4 className="ServiceTitleCap">Développement Mobile </h4>
-                    <p>Grâce à React Native, je développe des applications mobiles multiplateforme iOS et Android. ce qui permet de construire une architecture solide et une experiénce utilisateur de haute qualités </p>
+                    <p>Création des applications mobiles grâce à React Native de javascript, enfin de développer des applications mobiles multiplateforme IOS et Android. ce qui permet de construire une architecture solide et une experiénce utilisateur de haute qualités </p>
                 </div>
             </li>
             <li className="item">
                 <div className="item-image">
                      <FaLaptop className="FacodeService"/>
                      <h4 className="ServiceTitleCap">Design UX/UI</h4>
-                     <p>Conception des interfaces utilisateur agréable par le biais duquel l'utilisateur entre en contact avec le produit. Objectif de diminuer au maximum les interrogations que peut avoir un utilisateurs lors de sa navigation sur un site web.  </p>
+                     <p>Conception des interfaces utilisateur agréables par le biais duquel l'utilisateur entre en contact avec le produit. Objectif est de diminuer au maximum les interrogations que peut avoir un utilisateurs lors de sa navigation sur un site web.</p>
                 </div>
             </li>
             </ul>
