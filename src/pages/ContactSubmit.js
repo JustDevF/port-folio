@@ -1,13 +1,13 @@
 import React  from 'react'
 import './Contact.css'
 import { VscVerified } from 'react-icons/vsc'
-import { Link } from 'react-router-dom'
+import { Link} from 'react-router-dom'
+
 
 //La page ContactSubmit
 
 //Le composant de la page
 const ContactSubmit = () => {
-
 
   return (
     <main>

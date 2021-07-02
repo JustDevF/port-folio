@@ -2,13 +2,15 @@ import React  from 'react'
 import './Contact.css'
 import { VscVerified } from 'react-icons/vsc'
 import emailjs from 'emailjs-com'
-import { Link } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
+
 //La page Contact 
 
 //Le composant de la page
 const Contact = () => {
 
-  
+  const history = useHistory()
+
   //API emailjs
   function sendEmail(e) {
     e.preventDefault();
@@ -20,6 +22,7 @@ const Contact = () => {
           console.log(error.text);
       });
       e.target.reset()
+      history.push('/contactSubmit')
   }
 
   return (
@@ -43,7 +46,7 @@ const Contact = () => {
                       <input className="form-control" type="phone" placeholder="Téléphone" required name="phone"/>
                       <input className="form-control" type="text" placeholder="Projet" required name="project"/>
                       <textarea placeholder="Message" name="message" ></textarea>
-                      <Link to="/contactSubmit"><button type="submit" className="button-submit">Envoyer le message</button></Link>
+                     <button type="submit" className="button-submit">Envoyer le message</button>
                     </form>
             </section>
             </div>             

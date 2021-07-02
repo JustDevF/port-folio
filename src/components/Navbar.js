@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { FaBars} from 'react-icons/fa'
 import { links, social } from './data'
+import { NavLink, Link } from 'react-router-dom'
 import logo from './ImageWebDev.svg'
 import './Navbar.css'
 
@@ -29,7 +30,7 @@ const Navbar = () => {
           <div className="nav-center">
           {/*Nav Header */}
           <div className="nav-header">
-            <img src={logo}  className="logo" alt="logo"/>
+            <Link to="/"><img src={logo}  className="logo" alt="logo"/></Link>
              {/*Gest d'event onClick toggle state */}
             <button className="nav-toggle" onClick={() => setShowLinks(!showLinks)}>
                 <FaBars />
@@ -43,9 +44,9 @@ const Navbar = () => {
                 const {id, url, text} = link;
                 return (
                     <li key={id}>
-                        <a href={url}>
+                        <NavLink to={url}>
                             {text}
-                        </a>
+                        </NavLink>
 
                     </li>  
                     );
@@ -66,7 +67,7 @@ const Navbar = () => {
               })}
           </ul>
           <div className="navbarContact">
-              <a href="contact" className="navbarContactLikn">Contactez-Moi</a>
+              <Link to="/contact" className="navbarContactLikn">Contactez-Moi</Link>
           </div>
       </div>
       </nav>
