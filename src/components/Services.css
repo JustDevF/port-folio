@@ -30,12 +30,14 @@
     box-shadow: 0 0 20px 2px rgb(0 0 0 / 20%);
     border-radius: 5px;
     width: 300px;
-    height: 250px;
+    height: 235px;
     overflow: hidden;
   }
 
   .item .item-image:hover {
     background:#016c6b ;
+    width: 70%;
+    height: 70%;
   }
 
   .ServiceTitleCap{
@@ -82,7 +84,6 @@
   
   .item .item-image {
     width: 370px;
-    height: 290px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -109,7 +110,6 @@
     
     .item .item-image {
       width: 180px;
-      height: 240px;
     }
 
     .item-image p{
@@ -132,7 +132,6 @@
     
     .item .item-image {
       width: 260px;
-      height: 240px;
     }
 
     .item-image p{
@@ -153,7 +152,6 @@
     
     .item .item-image {
       width: 200px;
-      height: 240px;
     }
 
     .item-image p{
@@ -174,7 +172,6 @@
     
     .item .item-image {
       width: 320px;
-      height: 280px;
       margin-left: auto;
       margin-right: auto;
     }

@@ -23,7 +23,7 @@
 .hero-Name{
   font-size: 1.70rem;
   margin-top: -2rem;
-  color: rgb(255, 255, 255);
+  color: rgb(70, 70, 70);
 }
 .hero-NameSubTitle{
   color: rgb(92, 92, 92);
@@ -71,18 +71,6 @@
     border-color: #016c6b;
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 65%;
-  top: 0;
-  left: 0;
-  background: #cbf7fb;;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
 
 .hero {
   position: inherit;
@@ -90,7 +78,6 @@
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  margin-bottom: -12rem;
 }
 
 .hero-center {
@@ -114,6 +101,9 @@
 
 .hero-images {
   display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
 }
 
 
@@ -123,11 +113,7 @@
     margin-bottom: 4rem;
   }
   .phone-img {
-    width: 20rem;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3rem;
+    width: 30rem;
   }
   .hero-images {
     display: flex;
@@ -138,10 +124,6 @@
 
 /* hero media query */
 @media screen and (min-width: 800px) {
-  .hero::before {
-    background-size: contain;
-    height: 70%;
-  }
   .hero {
     margin-top: 0;
   }
@@ -177,25 +159,20 @@
 
 
 @media screen and (min-width: 1200px) {
-  .hero-center {
-    margin-top: -3rem;
-  }
+  
   .hero-images {
     align-self: center;
   }
   .phone-img {
-    width: 28rem;
-    margin-top: 10rem;
+    width: 40rem;
   }
 }
 
 
 @media screen and (min-width: 1400px) {
-  .hero-center {
-    margin-top: -5rem;
-  }
+ 
   .phone-img {
-    width:  28rem;
+    width:  40rem;
   }
 }
 

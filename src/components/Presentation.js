@@ -25,12 +25,13 @@ const Presentation = () => {
             <div>
             <Link to={`/about`}> <button className="btnHero">Détails </button></Link>
             <button className="btnHero">
-                <a href={monCv} download>Mon CV</a>
+                <a href={monCv} target="_blank" rel="noreferrer">Mon CV</a>
             </button>
             </div>
             </article>
             <article className="hero-images">
                 <img src={cvImage} className="phone-img" alt="phone" />
+                
             </article>
         </div>
       </section>

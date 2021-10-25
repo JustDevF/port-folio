@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import {FiPhoneCall, FiMapPin} from 'react-icons/fi'
+import {FiMapPin} from 'react-icons/fi'
 import {IoMailOpenOutline} from 'react-icons/io5'
 import { social2 } from './data'
 
@@ -15,14 +15,14 @@ const Footer = () => {
                     <ul>
                         <li className="itemFooter">
                             <div className="item-imageFooter">
-                                <FiPhoneCall className="react-iconsFooter"/>
-                                <h3 className="FooterContact">0751349885 </h3>
+                                <IoMailOpenOutline className="react-iconsFooter"/>
+                                <h3 className="FooterContact">justinkatasi.jk@gmail.com </h3>
+
                             </div>
                         </li>
                         <li className="itemFooter">
                             <div className="item-imageFooter">
-                                <IoMailOpenOutline className="react-iconsFooter"/>
-                                <h3 className="FooterContact">justinkatasi.jk@gmail.com </h3>
+                                <h3 className="FooterContact"> </h3>
 
                             </div>
                         </li>

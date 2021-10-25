@@ -13,8 +13,8 @@ const projet = [
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/recettes',
+        link2: 'https://application-recettes-react-redux.netlify.app'
       },
       langage:{
         langage1: "JAVASCRIP", 
@@ -24,16 +24,16 @@ const projet = [
     },
     {
       id: 2,
-      title: 'JAVASCRIPT HTML CSS',
-      img: './imagesProjet/htmlcss.jpg',
+      title: 'REACT API RESTAURANT',
+      img: './imagesProjet/image_api_cocktail.png',
       desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
       icons : {
         icon1:<FaGithubSquare />,
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/react_api_restaurant.git',
+        link2: 'https://react-api-restaurant.netlify.app'
       },
       langage:{
         langage1: "JAVASCRIP", 
@@ -98,6 +98,26 @@ const projet = [
         langage3: "CSS"
       },
     },
+    {
+      id: 6,
+      title: 'VEILLE TECHNOLOGIQUE',
+      img: './imagesProjet/photo-surveillance-température.jpg',
+      desc: `La veille technologique ou veille scientifique et technique consiste à s'informer de façon systématique sur les techniques les plus récentes`,
+      icons : {
+        icon1:<FaGithubSquare />,
+        icon2: <FiExternalLink />
+      },
+      links: {
+        link1:'https://github.com/JustDevF/Veille_technologique',
+        link2:'https://veilletechnologique.netlify.app/'
+      },
+      langage:{
+        langage1: "JAVASCRIP", 
+        langage2: "HTML",
+        langage3: "CSS"
+      },
+    },
+    
     
   ];
 
