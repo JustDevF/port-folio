@@ -113,9 +113,6 @@ langages
 .langageTitle{
   margin-bottom: 1rem;
 }
-.underlineLangages{
-  margin-bottom: 10rem;
-}
 }
 @media screen and (min-width: 1200px) {
   .containerLangage {

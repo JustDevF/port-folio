@@ -81,25 +81,6 @@ const projet = [
     },
     {
       id: 5,
-      title: 'REACT-NATIVE',
-      img: './imagesProjet/react-native.jpg',
-      desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
-      icons : {
-        icon1:<FaGithubSquare />,
-        icon2: <FiExternalLink />
-      },
-      links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
-      },
-      langage:{
-        langage1: "JAVASCRIP", 
-        langage2: "HTML",
-        langage3: "CSS"
-      },
-    },
-    {
-      id: 6,
       title: 'VEILLE TECHNOLOGIQUE',
       img: './imagesProjet/photo-surveillance-température.jpg',
       desc: `La veille technologique ou veille scientifique et technique consiste à s'informer de façon systématique sur les techniques les plus récentes`,
@@ -117,6 +98,26 @@ const projet = [
         langage3: "CSS"
       },
     },
+    {
+      id: 6,
+      title: 'REACT-NATIVE',
+      img: './imagesProjet/react-native.jpg',
+      desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
+      icons : {
+        icon1:<FaGithubSquare />,
+        icon2: <FiExternalLink />
+      },
+      links: {
+        link1:'https://www.twitter.com',
+        link2: 'https://www.twitter.com'
+      },
+      langage:{
+        langage1: "JAVASCRIP", 
+        langage2: "HTML",
+        langage3: "CSS"
+      },
+    },
+    
     
     
   ];
