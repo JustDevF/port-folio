@@ -22,7 +22,7 @@ const Projet = () => {
                 <div  key={id} className="containerProjet">
                 {/*ImageProjet */}
                   <div className="containerImageProjet">
-                   <a href="https://sharp-einstein-dea8f7.netlify.app/index.html"> <img src={img} alt={title}/> </a> 
+                    <img src={img} alt={title}/>
                   </div> 
                   {/*Desc Projet */}
                   <div className="containerDescProjet">
@@ -36,8 +36,8 @@ const Projet = () => {
                       <button className="btnProjet">{langage3}</button>
                     </div>
                     <div className="iconesProjet">
-                      <a href={link1}>{icon1} Lien du projet</a>
-                      <a href={link2}>{icon2}</a>
+                      <a href={link1} target="_blank" rel="noreferrer">{icon1} Lien du projet</a>
+                      <a href={link2} target="_blank" rel="noreferrer">{icon2}</a>
                     </div>
                   </div>             
               </div>

@@ -5,9 +5,9 @@ import {FiExternalLink} from 'react-icons/fi'
 const projet = [
     {
       id: 1,
-      title: 'REACT-REDUX',
+      title: 'REACT-REDUX-JSON',
       img: './imagesProjet/react-redux.jpg',
-      desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+      desc: `Application react redux connectée à une api de cocktails. Illustraction de l'utilisation de format redux et de json `,
       icons : {
         icon1:<FaGithubSquare />,
         icon2: <FiExternalLink />
@@ -24,7 +24,7 @@ const projet = [
     },
     {
       id: 2,
-      title: 'REACT API RESTAURANT',
+      title: 'REACT - AJX - JSON API RESTAURANT',
       img: './imagesProjet/image_api_cocktail.png',
       desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
       icons : {
@@ -43,26 +43,26 @@ const projet = [
     },
     {
       id: 3,
-      title: 'E-COMMERCE',
-      img: './imagesProjet/e-commerce.jpg',
-      desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+      title: 'SITE E-COMMERCE PHP',
+      img: './imagesProjet/site_e-commerce.png',
+      desc: `Le site e-commerce ou commerce électronique correspond à la vente en ligne de biens ou de services au travers de sites web marchands.`,
       icons : {
         icon1:<FaGithubSquare />,
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/Mobile_shop',
+        link2: './images/site_e-commerce-php.pdf'
       },
       langage:{
-        langage1: "JAVASCRIP", 
-        langage2: "HTML",
+        langage1: "PHP", 
+        langage2: "HTML - JAVASCRIP",
         langage3: "CSS"
       },
     },
     {
       id: 4,
-      title: 'BOOSTRAP',
+      title: 'SITE STATIQUE HTML BOOSTRAP',
       img: './imagesProjet/bootstrap.jpg',
       desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
       icons : {
@@ -70,13 +70,13 @@ const projet = [
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/site-hubs',
+        link2: 'https://site-statique-hubs.netlify.app/'
       },
       langage:{
         langage1: "JAVASCRIP", 
         langage2: "HTML",
-        langage3: "CSS"
+        langage3: ""
       },
     },
     {
