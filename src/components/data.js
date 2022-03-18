@@ -11,7 +11,7 @@ export const links = [
   {
     id: 2,
     url: '/Services',
-    text: 'Services',
+    text: 'Compétences',
   },
   {
     id: 3,
@@ -25,20 +25,22 @@ export const links = [
   },
 ];
 
+
+
 export const social = [
   {
     id: 1,
-    url: 'https://www.twitter.com',
+    url: 'https://github.com/JustDevF/',
     icon: <FaGithubSquare />,
   },
   {
     id: 2,
-    url: 'https://www.twitter.com',
+    url: 'https://www.linkedin.com/in/justin-katasi-7284bb221/',
     icon: <FaLinkedin />,
   },
   {
     id: 3,
-    url: 'https://www.twitter.com',
+    url: 'https://www.youtube.com/channel/UC5L5nZbzbIorA3ZiRL4tBWg',
     icon: <FaYoutube />,
   },
 
@@ -49,23 +51,19 @@ export const social = [
 export const social2 = [
   {
     id: 1,
-    url: 'https://www.twitter.com',
+    url: 'https://github.com/JustDevF/',
     icon: <FaGithubSquare />,
   },
   {
     id: 2,
-    url: 'https://www.twitter.com',
+    url: 'https://www.linkedin.com/in/justin-katasi-7284bb221/',
     icon: <FaLinkedin />,
   },
   {
     id: 3,
-    url: 'https://www.twitter.com',
+    url: 'https://www.youtube.com/channel/UC5L5nZbzbIorA3ZiRL4tBWg',
     icon: <FaYoutube />,
   },
-  {
-    id: 4,
-    url: 'https://www.twitter.com',
-    icon: <FaFacebook />,
-  },
+
 
 ];
