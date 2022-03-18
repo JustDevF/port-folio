@@ -42,6 +42,7 @@
   border: 1px solid #016c6b;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
 .btnHero a{
   color: #016c6b;
 }
@@ -54,6 +55,29 @@
     background: #016c6b;
     border-color: #016c6b;
 }
+
+
+.btnHeroTitle {
+  padding:5px;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  background: #016c6b;
+  border: 1px solid #016c6b;
+}
+
+.btnHeroTitle:hover{
+  color: rgb(172, 172, 172);
+}
+
+.btnHeroTitle:h{
+  padding-top: 1rem;
+}
+
+
+
 .btnProjet{
   margin-right: 1rem ;
   padding: 7px 15px;
