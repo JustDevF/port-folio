@@ -8,13 +8,14 @@ const About = () => {
   return (
     <section >
         <div className="serviceTitle">
-            <h2>A-propos</h2>
+            <h2>Mon parcours</h2>
             <div className='underlineService'></div>
+            <h3>Mes Formations</h3>
+            <h3>Mes expériences professionnelles</h3>
+            <h3>Mes Compétences téchniques</h3>
+            <h3>Mes Centres d'intérêts</h3>
+            <h3>Consulter mon CV pour plus de détail</h3>
          </div>
-        <p className="sectionAbout">Bonjour, je m'appelle Justin Katasi et je suis un développeur full-Stack junior 
-          Je construis ma carrière à partir de ce que j'aime vraiment. 
-          J’ai perfectionné mes compétences en tant que développeur Full-Stack Web, mobile en créant des applications Web et mobile avec Java, Python, PHP, JavaScript, React, Node, HTML, CSS, MySQL. 
-        </p>
     </section>
   )
 }
