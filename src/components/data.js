@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaFacebook, FaLinkedin, FaYoutube, FaGithubSquare } from 'react-icons/fa';
+import {FaLinkedin, FaYoutube, FaGithubSquare } from 'react-icons/fa';
 
 export const links = [
   {
