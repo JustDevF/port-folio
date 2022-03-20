@@ -3,6 +3,14 @@
     text-align: center;
     margin-top: 3rem;
   }
+
+  .serviceTitle p{
+    font-size: 1.3rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    text-align: center;
+  }
+
   .underlineService {
     width: 5rem;
     height: 0.25rem;
