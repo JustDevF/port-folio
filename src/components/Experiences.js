@@ -30,7 +30,7 @@ const Experiences = () => {
   return (
     <main>
        <div className="serviceTitle">
-          <h2>Experiences</h2>
+          <h2>Métiers</h2>
           <div className='underlineService'></div>
         </div>
         <section className="sectionTabs">
