@@ -31,7 +31,7 @@ export const data = [
     duties: [
     "La création des interfaces utilisateur modernes et progressives. Faire une traduction artistique globale, et de mettre en page les contenus à destination d’écrans (web, mobiles, tablettes) en lien avec le contenu du site. ainsi la conception de l’identité visuelle d’un site."
     ],
-    company: "Conception UI/UX"
+    company: "Concepteur UI/UX"
     },
     
 ]
