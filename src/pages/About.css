@@ -11,7 +11,56 @@
     font-size: 1.20rem;
     box-shadow: 0 0 20px 2px rgb(0 0 0 / 20%);
   }
+
+  .formationSec{
+    margin-top: 5rem;
+  }
+
+
+  header.major{
+    position: relative;
+    text-align: center;
+    border-top: solid 1px #ccc;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  header.major h3{
+    background: #747474;
+    position: relative;
+    top: -0.65em;
+    display: inline;
+    margin: 0;
+    padding: 0 1em 0 1em;
+    color: #ffffff;
+}
+
+  .parcoursContainer{
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: 4px solid #ff0000;
+    margin-bottom: 5rem;
+    overflow: hidden;
+  }
+
+  .parcoursBacPro{
+    width: 500px;
+    height: 260px;
+    border: 4px solid #dbdbe1;
+    border-left-color: #344cbe;
+    border-radius: 16px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
   
+  .periode{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #747474;
+  }
+
   @media screen and (min-width: 992px) {
     .sectionAbout {
       width: 95vw;
