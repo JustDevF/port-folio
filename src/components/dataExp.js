@@ -9,19 +9,19 @@ export const data = [
     "Assurer la liaison avec les développeurs back-end, les développeurs front-end, les testeurs d'assurance qualité et le CTO selon les besoins.",
     "Gestion des mises à jour urgentes, y compris les modifications de contenu et les mises à niveau de la base de données à planifié, écrit et débogué des applications Web et des logiciels avec une précision totale"
     ],
-    company: "Full-Stack"
+    company: "Developpeur Full-Stack"
     },
     {
     id: "recIL6mJNfWObonls",
     order: 2,
-    title: "Developpeur Mobile",
+    title: "Deveppeur Mobile",
     dates: "Mai 2019 - Présent",
     duties: [
     "L'utilisation de Java, Python ave le framework Android, le framework Flutter. Les développements de applications mobiles hybrides et multiplateforme.",
     "Assurer le développement des produits dans les délais et un travail de qualité pour apporter une amélioration continue.",
     "Fournir une expertise technique dans plusieurs domaines de développement d'applications grâce aux technologies : react-native, redux, sql, flutter."
     ],
-    company: "Mobile"
+    company: "Developpeur mobile"
     },
     {
     id: "rec61x18GVY99hQq5",
@@ -31,6 +31,7 @@ export const data = [
     duties: [
     "La création des interfaces utilisateur modernes et progressives. Faire une traduction artistique globale, et de mettre en page les contenus à destination d’écrans (web, mobiles, tablettes) en lien avec le contenu du site. ainsi la conception de l’identité visuelle d’un site."
     ],
-    company: "Design UI"
-    }
-    ]
+    company: "Conception UI/UX"
+    },
+    
+]
