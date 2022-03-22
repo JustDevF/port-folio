@@ -20,7 +20,7 @@ const Presentation = () => {
                 {/*Qui suis-je*/}
                 <div>
                     <button className="btnHeroTitle">Qui suis-je ?</button>
-                    <p>Je suis Justin Katasi, étudiant en deuxième année de BTS SIO option SLAM(Solutions Logicielles et Application Métier) au Lycée du Parc des Loges à Evry dans le 91. Passionné par le développement informatique depuis 3 ans, particulièrement les technologies Web et mobile, Je construis ma carrière à partir de ce que j'aime vraiment. Je perfectionne mes compétences en créant des applications Web et Mobile à l'aide de : PHP, JavaScript, HTML, CSS, Figma, MySQL, React, Node,Java, Python... Dans le but de pouvoir acquerier des nouvelles compétences, je poursuis mes études en master dans l'ingérie du Web. </p>
+                    <p>Je suis Justin Katasi, étudiant en deuxième année de BTS SIO option SLAM(Solutions Logicielles et Application Métier) au Lycée du Parc des Loges à Evry dans le 91. Passionné par le développement informatique depuis 3 ans, particulièrement les technologies Web et mobile, Je construis ma carrière à partir de ce que j'aime vraiment. Je perfectionne mes compétences en créant des applications Web et Mobile à l'aide de : PHP, JavaScript, HTML, CSS, Figma, MySQL, React, Node,Java, Python... Dans le but de pouvoir acquerier des nouvelles compétences, je poursuis mes études en master en ingénierie du Web. </p>
                     <Link to={`/about`}> <button className="btnHero">Mon parcours</button></Link>
                     <button className="btnHero">
                     <a href={monCv} target="_blank" rel="noreferrer">Mon CV</a>
