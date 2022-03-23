@@ -9,7 +9,7 @@ const Services = () => {
          <div className="serviceTitle">
             <h2>Mes compétences</h2>
             <div className='underlineService'></div>
-            <p>Les qualités pour répondre aux exigences d'un développeur informatique : de l'autoformation, logique, rigoureux, pragmatique, autonome, capable de s'adapter rapidement et à l'écoute des autres.</p>
+            <p>Les qualités pour répondre aux exigences d'un développeur informatique : de l'autoformation, logique, rigoureux, pragmatique, autonomie, capable de s'adapter rapidement et à l'écoute des autres.</p>
          </div>
         <section  className="main-content-benefits">
             <div className="container">
