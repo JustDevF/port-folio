@@ -31,9 +31,9 @@ const Contact = () => {
             <div className="ContainerHeader">
                 <h3 className="textTittleContact">Stay in touch</h3>
                 <ul className="textDescContact">
-                    <li><VscVerified/> Une proposition</li>
-                    <li><VscVerified/> Une discution ensemble</li>
-                    <li><VscVerified/> Le lancement du projet</li>
+                    <li><VscVerified/> Pragmatique</li>
+                    <li><VscVerified/> Autonome</li>
+                    <li><VscVerified/> Travail en équipe</li>
                 </ul>
             </div> 
             <div className="containerForm">
