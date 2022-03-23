@@ -29,8 +29,7 @@ const Contact = () => {
     <main>
       <div  className="containerContact">
             <div className="ContainerHeader">
-                <h3 className="textTittleContact">100% Satisfaction</h3>
-                <h3 className="textTittleContact">Garantie</h3>
+                <h3 className="textTittleContact">Stay in touch</h3>
                 <ul className="textDescContact">
                     <li><VscVerified/> Une proposition</li>
                     <li><VscVerified/> Une discution ensemble</li>
