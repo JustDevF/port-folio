@@ -25,7 +25,7 @@ const About = () => {
                 <div className="parcoursBacPro">
                     <img src="imagesProjet\logo-lgb-mini.png" width="200" alt="logo_image_lgb" />
                     <h3>BAC PRO SN RISC</h3>
-                    <h4>Systèmes numériques - Option C : réseaux informatiques et systèmes communicants (RISC) </h4>
+                    <h4>Systèmes numériques Option C : réseaux informatiques et systèmes communicants (RISC) </h4>
                     <div className='periode'>Evry-Courcouronnes : 2017-2020</div>
                 </div>
               </div>
