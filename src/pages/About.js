@@ -1,5 +1,7 @@
 import React from 'react'
 import './About.css'
+import monCv from '../components/cv_justin_katasi.pdf'
+
 
 //La page about
 
@@ -83,7 +85,58 @@ const About = () => {
             </div>
             </section>
             <section className='formationSec'>
-              <header className='major'>
+                <header className='major'>
+                  <h3 id="formation">Mon CV</h3>
+                </header>
+                <div className='contenairCv'>
+                    <div className='cvElt1 cvElt'>
+                      <ul>
+                        <li>PHP</li>
+                        <li>Javascrip</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                      </ul>
+                    </div>
+                    <div className='cvElt2 cvElt'>
+                      <ul>
+                        <li>SQL</li>
+                        <li>MySQL</li>
+                        <li>PostSQL</li>
+                        <li>MongoDB</li>
+                        <li>GraphQL</li>
+                      </ul>
+                    </div>
+                    <div className='cvElt3 cvElt'>
+                      <ul>
+                        <li>React.js</li>
+                        <li>Redux</li>
+                        <li>Node.js</li>
+                        <li>JQuery</li>
+                      </ul>
+                    </div>
+                    <div className='cvElt4 cvElt'>
+                      <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Netlify</li>
+                        <li>Docker</li>
+                      </ul>
+                    </div>
+                    <div className='cvElt5 cvElt'>
+                      <ul>
+                        <li>HTM</li>
+                        <li>CSS</li>
+                        <li>SASS</li>
+                        <li>Boostrap</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <button className="btnHero">
+                    <a href={monCv} target="_blank" rel="noreferrer">Télecharger mon cv</a>
+                  </button>
+            </section>
+            <section className='formationSec'>
+                <header className='major'>
                   <h3 id="formation">Centres d'intérêts</h3>
                 </header>
                 <p> Je m'occupe comme je peux !!</p>
