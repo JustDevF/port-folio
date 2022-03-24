@@ -64,7 +64,7 @@ const About = () => {
                   <img src='imagesProjet\orange_logo.png' width="104" alt=""/>
                     <h3>Évry</h3>
                     <h4 className='periode'> 2020 | Stage en développement informatique  </h4>
-                    <div>Réalisations :</div>
+                    <div>Réalisations:</div>
                   <ul>
                       <li>•	Conception de maquette de site Web</li>
                       <li>•	Développement des scripts Bash sur Linux</li>
