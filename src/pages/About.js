@@ -9,7 +9,7 @@ import monCv from '../components/cv_justin_katasi.pdf'
 const About = () => {
   return (
     <section >
-        <div className="serviceTitle">
+        <div className="contenairAbout">
             <h2>Mon parcours</h2>
             <div className='underlineService'></div>
             <section className='formationSec'>
