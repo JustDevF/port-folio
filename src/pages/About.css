@@ -1,15 +1,15 @@
 /* sectionAbout */
-.sectionAbout {
-    width: 60vw;
-    padding: 2rem 2rem;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100vw;
-    background: #ffffff;
-    font-size: 1.20rem;
-    box-shadow: 0 0 20px 2px rgb(0 0 0 / 20%);
+  .contenairAbout{
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .contenairAbout p{
+    font-size: 1.3rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    color: #a3a3a3;;
+    text-align: center;
   }
 
   .formationSec{
@@ -21,8 +21,6 @@
     position: relative;
     text-align: center;
     border-top: solid 1px #ccc;
-    margin-left: 15rem;
-    margin-right: 15rem;
   }
 
   header.major h3{
@@ -113,6 +111,7 @@
  
   .contenairCv{
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
     color: #ffffff;
@@ -174,25 +173,96 @@
       background: #016c6b;
   }
   
-  @media screen and (min-width: 992px) {
-    .sectionAbout {
-      width: 95vw;
-      background: white;
-      padding-top: -2rem;
-      font-size: 1rem;
-    }
-  }
-  @media screen and (min-width: 300px) {
-    .sectionAbout {
-      width: 80vw;
-      font-size: 1rem;
-      padding: 1.20rem 1.20rem;
-    }
-  }
+ 
   @media screen and (min-width: 400px) {
-    .sectionAbout {
-      width: 80vw;
-      font-size: 1rem;
-      padding: 1.20rem 1.20rem;
+    .contenairAbout p{
+      font-size: 0.7rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
     }
+
+    .formationSec{
+      margin-top: 2rem;
+    }
+    .parcoursContainer{
+      display:block;
+      justify-content: center;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 2rem  
+    }
+
+    .parcoursBacPro{
+      width: 80%;
+      height: 80%;
+      margin-top: 1rem;
+      margin-left: 2rem;
+      margin-right: 0;
+    }
+    header.major{
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .contenaireComp{
+      display:block;
+      justify-content: center;
+      overflow: hidden;
+      margin: 0 0 0 1rem;
+    }
+
+    .comp1{
+     margin-top: 1rem;
+    }
+
+    .contenairCv{
+      flex-wrap:wrap; 
+    }
+    .cvElt{
+      margin-top: 1rem;
+    }
+
+    .ContenairCI{
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    
+    #ctTitle{
+      font-size: 1.3rem;
+    }
+
+  
   }
+
+  @media screen and (min-width: 992px) {
+    .contenairAbout p{
+      font-size: 1.5rem;
+      padding-left: 7rem;
+      padding-right: 7rem;
+    }
+    .parcoursContainer{
+      display: inline-flex;
+    }
+    .parcoursBacPro{
+      width: 500px;
+      height: 260px;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
+    .contenaireComp{
+      display:flex;
+    }
+
+    .ContenairCI{
+      margin-left: 15rem;
+      margin-right: 15rem;
+    }
+
+    #ctTitle{
+      font-size: 4rem;
+    }
+
+
+  }
+  
