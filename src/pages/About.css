@@ -89,6 +89,27 @@
 
   }
 
+  .ContenairCI{
+    position: relative;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  
+  .ContenairCI img{
+    width: 80%;
+    height: auto;
+  }
+
+  #ctTitle{
+    background: #ffffff;
+    font-size: 3rem;
+    position: relative;
+    top: -0.65em;
+    display: inline;
+    margin: 0;
+    padding: 0 1em 0 1em;
+    color: rgb(61, 61, 61);
+  }
  
   @media screen and (min-width: 992px) {
     .sectionAbout {

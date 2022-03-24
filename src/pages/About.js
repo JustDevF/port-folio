@@ -70,7 +70,7 @@ const About = () => {
                   </ul>
                 </div>
                 <div className='comp1'>
-                 <img src='imagesProjet\logo-aurore.jpg' width="230" alt=""/>
+                 <img src='imagesProjet\logo-aurore.jpg' width="230" alt="imageAssociationAurore"/>
                     <h3>Paris</h3>
                     <h4 className='periode'> 2019 | Stage en assistant administrateur réseau</h4>
                     <div>Réalisations :</div>
@@ -82,8 +82,24 @@ const About = () => {
                 </div>
             </div>
             </section>
-            <h3>Mes Centres d'intérêts</h3>
-            <h3>Consulter mon CV pour plus de détail</h3>
+            <section className='formationSec'>
+              <header className='major'>
+                  <h3 id="formation">Centres d'intérêts</h3>
+                </header>
+                <p> Je m'occupe comme je peux !!</p>
+                <div className='ContenairCI'>
+                  <img src="imagesProjet\natation_img.jpg" alt="imageNatation" />
+                  <h3 id="ctTitle">Natation</h3>
+                </div>
+                <div className='ContenairCI'>
+                  <img src="imagesProjet\linkedin.jpg" alt="imageLinkedin" />
+                  <h3 id="ctTitle">Réseaux sociaux</h3>
+                </div>
+                <div className='ContenairCI'>
+                  <img src="imagesProjet\fitness_park.jpg" alt="imageFitnessPark" />
+                  <h3 id="ctTitle">Musculation</h3>
+                </div>
+              </section>
          </div>
     </section>
   )
