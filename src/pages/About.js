@@ -34,8 +34,54 @@ const About = () => {
               <header className='major'>
                 <h3 id="formation">Expériences professionnelles</h3>
               </header>
+              <p> Mes expériences professionnelles m’ont permises de rentre en contact et  de m'inséser dans le monde professionnel de l'informatique.</p>
+              <div className='contenaireComp'>
+                <div className='comp1'>
+                  <img src='imagesProjet\kara_logo.jpg' width="100" alt=""/>
+                  <h3>Kara</h3>
+                  <h4 className='periode'>2022 | Stage en développement-Mobile  </h4>
+                  <div> Réalisations :</div>
+                  <ul>
+                    <li>•	Conception de maquette d'une application mobile</li>
+                    <li>•	Développement de l'application mobile</li>
+                    <li>•	Fusion de l'applciation mobile au site Web </li>
+                  </ul>
+                </div>
+                <div className='comp1'>
+                  <img src='imagesProjet\kara_logo.jpg' width="100" alt=""/>
+                    <h3>Kara</h3>
+                    <h4 className='periode'>2021 | Stage en développement-Web  </h4>
+                    <div>Réalisations :</div>
+                  <ul>
+                      <li>•	Conception de maquette de site Web</li>
+                      <li>•	Développement de site Web </li>
+                      <li>•	Déploiement de site web </li>
+                  </ul>
+                </div>
+                <div className='comp1'>
+                  <img src='imagesProjet\orange_logo.png' width="104" alt=""/>
+                    <h3>Évry</h3>
+                    <h4 className='periode'> 2020 | Stage en développement informatique  </h4>
+                    <div>Réalisations :</div>
+                  <ul>
+                      <li>•	Conception de maquette de site Web</li>
+                      <li>•	Développement des scripts Bash sur Linux</li>
+                      <li>•	Intégration continue des ressources</li>
+                  </ul>
+                </div>
+                <div className='comp1'>
+                 <img src='imagesProjet\logo-aurore.jpg' width="230" alt=""/>
+                    <h3>Paris</h3>
+                    <h4 className='periode'> 2019 | Stage en assistant administrateur réseau</h4>
+                    <div>Réalisations :</div>
+                  <ul>
+                      <li>•	Mise en place de l’infrastructure réseau cloud computing)</li>
+                      <li>• Maintenance des systèmes </li>
+                  </ul>
+                  
+                </div>
+            </div>
             </section>
-            <h3>Mes Compétences téchniques</h3>
             <h3>Mes Centres d'intérêts</h3>
             <h3>Consulter mon CV pour plus de détail</h3>
          </div>
