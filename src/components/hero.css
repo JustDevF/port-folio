@@ -146,6 +146,10 @@
     display: block;
     margin-top: -5rem
   }
+
+  .hero-info{
+    margin-bottom: 2rem;
+  }
 }
 
 /* hero media query */
