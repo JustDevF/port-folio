@@ -60,6 +60,35 @@
     color: #747474;
   }
 
+  .contenaireComp{
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 2rem 7rem 5rem 7rem;
+  }
+  
+  .comp1{
+    width: 330px;
+    height: 400px;
+    border: 1px solid #dbdbe1;
+    border-radius: 16px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #ffffff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+
+  .comp1 ul{
+    text-align: start;
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: #747474;
+
+  }
+
+ 
   @media screen and (min-width: 992px) {
     .sectionAbout {
       width: 95vw;
