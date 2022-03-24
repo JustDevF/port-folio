@@ -137,13 +137,19 @@
     margin-bottom: -8rem
   }
   .phone-img {
-    width: 30rem;
-    margin-left: -6rem;
+    margin-top: 2rem;
+    width: 25rem;
+    margin-left: -8rem;
     
   }
   .hero-images {
     display: flex;
     margin-top: -8rem
+  }
+
+  .serviceTitle p {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
