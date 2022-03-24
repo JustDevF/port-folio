@@ -102,6 +102,13 @@
   .ServiceTitleCap{
     font-size: 1.50rem;
   }
+
+  .serviceTitle p {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1rem;
+  }
+  
 }
 
   @media screen and (min-width: 700px) {
@@ -189,6 +196,13 @@
     .item-image p{
       font-size: 0.90rem;
     }
+
+    .serviceTitle p{
+      padding-left: 20rem;
+      padding-right: 20rem;
+      font-size: 1.3rem;
+    }
+
   }
 
   @media screen and (min-width: 1400px) {
@@ -213,4 +227,5 @@
     .item-image p{
       font-size: 0.90rem;
     }
+
   }

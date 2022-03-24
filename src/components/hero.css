@@ -143,13 +143,8 @@
     
   }
   .hero-images {
-    display: flex;
-    margin-top: -8rem
-  }
-
-  .serviceTitle p {
-    padding-left: 0;
-    padding-right: 0;
+    display: block;
+    margin-top: -5rem
   }
 }
 
