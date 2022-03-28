@@ -10,9 +10,7 @@ const projetBTS1 = [
       img: './imagesProjet/projet_site_marchand_1.PNG',
       desc: `Février 2019 - Septembre 2019
       Projet réalisé durant la première année de BTS, durant le deuxième semestre. Il a été initié en groupe de 3 puis le groupe s'est dissocié pour la partie dynamique du site afin de travailler seule.
-      Cette réalisation avait pour but de mettre en pratique les notions de dynamisme apprises en PHP dans la conception d'un site marchand dynamique, à rajouter avec toutes les notions vues précédemment en HTML, CSS, SQL et JavaScript avec la classe PDO dans uns second temps.
-      Ce site a été réalisé dans les temps cependant les différences de méthodes de travail et de rapidité ainsi que les différences de niveau ont fait que le travail n'a pas été réparti équitablement du tout pour la première partie du projet.
-      J'ai préféré la partie du projet où je travaillais seule car je pouvais avancer à mon rythme.`,
+      Cette réalisation avait pour but de mettre en pratique les notions de dynamisme apprises en PHP dans la conception d'un site marchand dynamique, à rajouter avec toutes les notions vues précédemment en HTML, CSS, SQL et JavaScript avec la classe PDO dans uns second temps.`,
       icons : {
         icon1:<FaGithubSquare />,
         icon2: <FiExternalLink />
