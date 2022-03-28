@@ -14,7 +14,7 @@ const About = () => {
             <div className='underlineService'></div>
             <section className='formationSec'>
               <header className='major'>
-              <h3 id="formation">Formations</h3>
+                <h3 id="formation">Formations</h3>
               </header>
               <p>Les choix de mes diplômes, entreprises, projets et certifications sont influencés par ma passion pour l'informatique et le numérique.</p>
               <div className='parcoursContainer'>

@@ -121,8 +121,8 @@
 
 @media screen and (min-width: 1200px) {
     .containerProjet{
-        margin-left: 10rem;
-        margin-right: 10rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
         margin-bottom: 10rem; 
         margin-top: 3rem;
     }
@@ -133,7 +133,7 @@
     
     
     .containerDescProjet {
-        height: 110%;
+        height: 160%;
         width: 50%;
     }
     .btnProjet {
