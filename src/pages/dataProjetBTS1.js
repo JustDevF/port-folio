@@ -16,12 +16,12 @@ const projetBTS1 = [
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/Mobile_shop',
+        link2: 'https://github.com/JustDevF/Mobile_shop'
       },
       langage:{
-        langage1: "JAVASCRIP", 
-        langage2: "HTML",
+        langage1: "PHP", 
+        langage2: "MySQL",
         langage3: "CSS"
       },
     },
@@ -37,8 +37,8 @@ Cette application a été réalisée dans les temps sans difficulté majeure. La
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/Veille_technologique',
+        link2:'https://veilletechnologique.netlify.app/'
       },
       langage:{
         langage1: "JAVASCRIP", 

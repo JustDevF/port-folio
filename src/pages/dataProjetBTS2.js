@@ -18,13 +18,12 @@ const projetBTS2 = [
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/projetsbg1',
+        link2: 'https://github.com/JustDevF/projetsbg1'
       },
       langage:{
-        langage1: "JAVASCRIP", 
-        langage2: "HTML",
-        langage3: "CSS"
+        langage1: "PHP", 
+        langage2: "MySQL",
       },
     },
     {
@@ -42,13 +41,12 @@ const projetBTS2 = [
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/GSB-3_gestion_materiel_medical',
+        link2: 'https://github.com/JustDevF/GSB-3_gestion_materiel_medical'
       },
       langage:{
-        langage1: "JAVASCRIP", 
-        langage2: "HTML",
-        langage3: "CSS"
+        langage1: "JAVA", 
+        langage2: "MySQL",
       },
     },
     {
@@ -65,13 +63,13 @@ const projetBTS2 = [
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/GSB3_Gestion_Conferences',
+        link2: 'https://github.com/JustDevF/GSB3_Gestion_Conferences'
       },
       langage:{
-        langage1: "JAVASCRIP", 
-        langage2: "HTML",
-        langage3: "CSS"
+        langage1: "PHP", 
+        langage2: "MySQL",
+        langage3: "CodeIgniter"
       },
     }
     
