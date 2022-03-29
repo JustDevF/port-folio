@@ -15,9 +15,7 @@ const Footer = () => {
                     <ul>
                         <li className="itemFooter">
                             <div className="item-imageFooter">
-                                <IoMailOpenOutline className="react-iconsFooter"/>
-                                <h3 className="FooterContact">justinkatasi.jk@gmail.com </h3>
-
+                                <a href="mailto:justinkatasi.jk@gmail.com"><IoMailOpenOutline className="react-iconsFooter"/></a>
                             </div>
                         </li>
                         <li className="itemFooter">
@@ -37,7 +35,7 @@ const Footer = () => {
             </div>
             {/*Reseaux sociaux */}
             <div  className="containerRs">
-                   <div className="RsTexte">Restons connecter sur les réseaux sociaux</div>
+                   <div className="RsTexte">Restons connecté sur les réseaux sociaux</div>
                    <div className="RsIcones">
                          {/*Social media dynamique icons */}
                         <ul className="social-iconsFooter">
