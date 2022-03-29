@@ -137,13 +137,12 @@ const projet = [
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/projetsbg1',
+        link2: 'https://github.com/JustDevF/projetsbg1'
       },
       langage:{
-        langage1: "JAVASCRIP", 
-        langage2: "HTML",
-        langage3: "CSS"
+        langage1: "PHP", 
+        langage2: "MySQL",
       },
     },
     {
@@ -161,13 +160,12 @@ const projet = [
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/GSB-3_gestion_materiel_medical',
+        link2: 'https://github.com/JustDevF/GSB-3_gestion_materiel_medical'
       },
       langage:{
-        langage1: "JAVASCRIP", 
-        langage2: "HTML",
-        langage3: "CSS"
+        langage1: "JAVA", 
+        langage2: "MySQL",
       },
     },
     {
@@ -184,19 +182,19 @@ const projet = [
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/GSB3_Gestion_Conferences',
+        link2: 'https://github.com/JustDevF/GSB3_Gestion_Conferences'
       },
       langage:{
-        langage1: "JAVASCRIP", 
-        langage2: "HTML",
-        langage3: "CSS"
+        langage1: "PHP", 
+        langage2: "MySQL",
+        langage3: "CodeIgniter"
       },
     }
     
   ];
 
-export const projetBTS1 = [
+  export const projetBTS1 = [
     {
       id: 1,
       title: 'Site web marchand',
@@ -209,12 +207,12 @@ export const projetBTS1 = [
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/Mobile_shop',
+        link2: 'https://github.com/JustDevF/Mobile_shop'
       },
       langage:{
-        langage1: "JAVASCRIP", 
-        langage2: "HTML",
+        langage1: "PHP", 
+        langage2: "MySQL",
         langage3: "CSS"
       },
     },
@@ -230,8 +228,8 @@ Cette application a été réalisée dans les temps sans difficulté majeure. La
         icon2: <FiExternalLink />
       },
       links: {
-        link1:'https://www.twitter.com',
-        link2: 'https://www.twitter.com'
+        link1:'https://github.com/JustDevF/Veille_technologique',
+        link2:'https://veilletechnologique.netlify.app/'
       },
       langage:{
         langage1: "JAVASCRIP", 

@@ -1,8 +1,7 @@
 import React from 'react'
 import './Projets.css'
-import projet from './dataProjet'
-import projetBTS2 from './dataProjetBTS2'
-import projetBTS1 from './dataProjetBTS1'
+import projet, {projetBTS2, projetBTS1} from './dataProjet'
+
 //La page projet
 
 //Le composant de la page
