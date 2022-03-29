@@ -10,18 +10,13 @@ export const links = [
   },
   {
     id: 2,
-    url: '/Services',
-    text: 'Compétences',
-  },
-  {
-    id: 3,
     url: '/projets',
     text: 'Projects',
   },
   {
-    id: 4,
-    url: '/contact',
-    text: 'Contact',
+    id: 3,
+    url: '/projetPro',
+    text: 'Projet professionnel',
   },
 ];
 

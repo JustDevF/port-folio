@@ -9,6 +9,7 @@ import Projet from './pages/Projets'
 import Services from './components/Services'
 import Error from './pages/Error'
 import ContactSubmit from './pages/ContactSubmit'
+import ProjetPro from './pages/projetPro'
 
 //import components
 import Navbar from './components/Navbar'
@@ -39,6 +40,9 @@ function App() {
         </Route>
         <Route path="/services">
           <Services />
+        </Route>
+        <Route path="/projetPro">
+          <ProjetPro />
         </Route>
         <Route path="*">
           <Error />

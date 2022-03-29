@@ -21,6 +21,8 @@
     position: relative;
     text-align: center;
     border-top: solid 1px #ccc;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 
   header.major h3{
@@ -200,8 +202,8 @@
       margin-right: 0;
     }
     header.major{
-      margin-left: 0;
-      margin-right: 0;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
 
     .contenaireComp{
@@ -264,6 +266,11 @@
     }
     .formationSec{
       margin-top: 8rem;
+    }
+
+    header.major {
+      margin-left: 10rem;
+      margin-right: 10rem;
     }
 
 
