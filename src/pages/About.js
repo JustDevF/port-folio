@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import monCv from '../components/cv_justin_katasi.pdf'
+import MenuCertif from '../components/MenuCertif/MenuProjet'
 
 
 //La page about
@@ -134,6 +135,13 @@ const About = () => {
                   <button className="btnHero">
                     <a href={monCv} target="_blank" rel="noreferrer">Télecharger mon cv</a>
                   </button>
+            </section>
+
+            <section className='formationSec'>
+                <header className='major'>
+                  <h3 id="formation">Mes certifications</h3>
+                </header>
+                <MenuCertif />
             </section>
             <section className='formationSec'>
                 <header className='major'>

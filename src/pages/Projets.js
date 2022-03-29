@@ -15,7 +15,11 @@ const Projet = () => {
           <header className='major'>
                 <h3 id="formation">Deuxième année</h3>
           </header>
-          <p>L'entreprise GSB est un laboratoire pharmaceutique issu d'une fusion entre Américain Galaxy (Spécialisé dans le secteur des maladies virales et les hépatites) et le conglomérat européen Swiss Bourdin(Travaillant sur des médicaments plus conventionnels) ayant eut lieu en 2009. Son siège administratif est à Paris et son siège social se situe à Philadelphie en Pennsylvanie aux Etats-Unis. Cette fusion a pour but principal d’optimiser l’activité du groupe dans le domaine médical.</p>
+          <div>
+            <p>L'entreprise GSB est un laboratoire pharmaceutique issu d'une fusion entre Américain Galaxy (Spécialisé dans le secteur des maladies virales et les hépatites) et le conglomérat européen Swiss Bourdin(Travaillant sur des médicaments plus conventionnels) ayant eut lieu en 2009.
+            </p>
+          </div>
+          
         </div>
         {/*Projet BTS SIO2 */}
         {/*Récup de données */}
