@@ -5,7 +5,6 @@ import Presentation from '../components/Presentation'
 import Services from '../components/Services'
 import Experiences from '../components/Experiences'
 import Langages from '../components/Langages/Langages'
-import Technologies from '../components/Technologies'
 import MenuProjet from '../components/MenuProjet/MenuProjet'
 
 //Page d'accueil 
@@ -19,7 +18,6 @@ const Home = () => {
       <Experiences />
       <MenuProjet />
       <Langages />
-      <Technologies />
     </main>
   );
 }
