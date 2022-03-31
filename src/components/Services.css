@@ -1,7 +1,7 @@
 
   .serviceTitle{
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 
   .serviceTitle p{
@@ -79,6 +79,9 @@
 }
 
 @media screen and (min-width: 400px) {
+  .serviceTitle{
+    margin-top: 5rem;
+  }
   .main-content-benefits {
     margin-left: auto;
     margin-right: auto;

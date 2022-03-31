@@ -7,7 +7,7 @@ const ProjetPro = () => {
     return (
       <section >
           <div className="contenairPP">
-          <section className='formationSec'>
+          <section className='formationSec2'>
               <header className='major'>
                 <h3 id="formation">Ecole intégrée</h3>
               </header>
@@ -15,7 +15,7 @@ const ProjetPro = () => {
               J'intègre dès la rentrée prochaine (Septembre 2022) l'école HETIC à Monteuil en 3ème année de bachelor développement Web en apprentissage. J'envisage par la suite d'intégrer le master CTO tech lead dans cette école pour me permettre de devenir un expert en développement et technologies internet.
               </p>
           </section>
-          <section className='formationSec'>
+          <section className='formationSec2'>
               <header className='major'>
                 <h3 id="formation">Métier(s) envisagé(s)</h3>
                 <ul>
