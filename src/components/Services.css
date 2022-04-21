@@ -94,6 +94,7 @@
   
   .item .item-image {
     width: 370px;
+    height: 340px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -221,7 +222,7 @@
     
     .item .item-image {
       width: 390px;
-      height: 290px;
+      height: 340px;
     }
     .ServiceTitleCap{
       font-size: 1.20rem;
