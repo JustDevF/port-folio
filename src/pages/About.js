@@ -25,6 +25,12 @@ const About = () => {
                   <h4>Concepteur développeur de solution Digitales</h4>
                   <div className='periode'>Montreuil : 2022-2023</div>
                 </div>
+                <div className="parcoursBacPro">
+                  <img src="imagesProjet\logo_codecademy.png" width="90" alt="logo_image_hetic" />
+                  <h3>CodeCademy</h3>
+                  <h4>Développement Web fullstack</h4>
+                  <div className='periode'>En-ligne : 2020-2022</div>
+                </div>
               </div>
               <div className='parcoursContainer'>
                 <div className="parcoursBacPro">
@@ -48,8 +54,8 @@ const About = () => {
               <p> Mes expériences professionnelles m’ont permises de rentre en contact et  de m'inséser dans le monde professionnel de l'informatique.</p>
               <div className='contenaireComp'>
                 <div className='comp1'>
-                  <img src='imagesProjet\kara_logo.jpg' width="100" alt=""/>
-                  <h3>Kara</h3>
+                  <img src='imagesProjet\orange_logo.png' width="100" alt=""/>
+                  <h3>Paris</h3>
                   <h4 className='periode'>2022 | Stage en développement-Mobile  </h4>
                   <div> Réalisations :</div>
                   <ul>
