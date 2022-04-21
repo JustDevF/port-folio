@@ -20,6 +20,14 @@ const About = () => {
               <p>Les choix de mes diplômes, entreprises, projets et certifications sont influencés par ma passion pour l'informatique et le numérique.</p>
               <div className='parcoursContainer'>
                 <div className="parcoursBacPro">
+                  <img src="imagesProjet\logo_hetic.png" width="90" alt="logo_image_hetic" />
+                  <h3>Bachelor Développement Web</h3>
+                  <h4>Concepteur développeur de solution Digitales</h4>
+                  <div className='periode'>Montreuil : 2022-2023</div>
+                </div>
+              </div>
+              <div className='parcoursContainer'>
+                <div className="parcoursBacPro">
                   <img src="imagesProjet\lpdl.jpg" width="100" alt="logo_image_lpd" />
                   <h3>BTS SIO SLAM</h3>
                   <h4>Services Informatiques aux Organisations. option SLAM (Solutions Logicielles et Applications Métiers)) </h4>
