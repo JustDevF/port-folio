@@ -141,3 +141,43 @@ export const competences = [
   },
     
 ];
+
+export const services = [
+  {
+    id: 1,
+    image: './Images/img_fullstack.png',
+    name: 'Developpeur Web Full Stack',
+    title: 'Développeur polyvalent',
+    quote:
+      'Développer des applications Web à pile complète qui traitent, analysent et rendent les données visuellement. Assurer la liaison avec les développeurs back-end, les développeurs front-end, les testeurs d"assurance qualité et le CTO selon les besoins.',
+  },
+  {
+    id: 2,
+    image:'./Images/img_frontend_reactjs.png',
+    name: 'Développeur Front-end',
+    title: 'Développement coté utilisateur',
+    quote: 'Le développement web frontal correspond aux productions HTML, CSS et JavaScript d’une page internet ou d’une application qu’un utilisateur peut voir et avec lesquelles il peut interagir directement.',
+  },
+  {
+    id: 3,
+    image:'./Images/img_backend.png',
+    name: 'Développeur Back-end',
+    title: 'Développement coté serveur',
+    quote:'Nous assurons l"Entretien, l"installation et les dépannages des vos installations, meubles et votre maison tout en vous assurant un service de qualité dans le respect des règles de sécurité et à la règlementation qui s"y rapport',
+  },
+  {
+    id: 4,
+    image:'./Images/img_code.png',
+    name: 'Développer mobile',
+    title: 'Développment des applications natives pour mobile',
+    quote: 'La conception, la réalisation technique et le développement d"applications pour mobiles, L"utilisation de Javascript, Java, Python ave le framework React Native, Flutter pour développer des applications mobiles hybrides et multiplateforme.',
+  },
+  {
+    id: 5,
+    image:'./Images/img_ux_ui.png',
+    name: 'Concepteur UI/UX',
+    title: 'Design Web',
+    quote:'La création des interfaces utilisateur modernes et progressives. Faire une traduction artistique globale, et de mettre en page les contenus à destination d’écrans (web, mobiles, tablettes) en lien avec le contenu du site. ainsi la conception de l’identité visuelle d’un site.',
+  }
+  
+];

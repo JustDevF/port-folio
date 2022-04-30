@@ -6,6 +6,7 @@ import Services from '../components/Services'
 import Experiences from '../components/Experiences'
 import Langages from '../components/Langages/Langages'
 import MenuProjet from '../components/MenuProjet/MenuProjet'
+import ImageSlider from '../components/ImageSlider';
 
 //Page d'accueil 
 
@@ -14,6 +15,7 @@ const Home = () => {
   return (
     <main>
       <Presentation />
+      <ImageSlider />
       <Services />
       <Experiences />
       <MenuProjet />
