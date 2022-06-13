@@ -1,29 +1,49 @@
 import React  from 'react'
 import './Contact.css'
 import { VscVerified } from 'react-icons/vsc'
+//Api emailjs permet de récupérer les informations du formuliare et l'envoyer dans ma boîte mail 
 import emailjs from 'emailjs-com'
 import { useHistory } from 'react-router-dom'
+//Api React Hook Form pour valider la saisie de l'utilisateur
+import { useForm } from "react-hook-form"
+//Api yup permet de définir en amont un controller pour chaque type de saisie 
+import { yupResolver } from '@hookform/resolvers/yup'
+import * as yup from "yup"
 
-//La page Contact 
+//Validateur 
+const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
 
-//Le composant de la page
+const schema = yup.object({
+  name: yup.string().max(30).required("Le nom ne peut pas être vide, veuillez saisir votre nom, s'il vous plaît "),
+  email : yup.string().email().required("L'adresse mail invalide. Veuillez saisir une adresse mail valide, s'il vous plaît"),
+  phone: yup.string().matches(phoneRegExp, "Le numéro de téléphone invalide. Veuillez saisir un numéro de téléphone valide, s'il vous plaît").required("Un numéro de téléphone est requis"),
+  message : yup.string().max(300)
+}).required()
+
+
 const Contact = () => {
-
+ 
   const history = useHistory()
 
-  //API emailjs
-  function sendEmail(e) {
-    e.preventDefault();
+  const { register, handleSubmit, formState:{ errors } } = useForm({
+    resolver: yupResolver(schema)
+  });
 
-    emailjs.sendForm('service_bahpx0t', 'template_7legbyy', e.target, 'user_NOmEJNy2vqsT2YJhWiRJ5')
-      .then((result) => {
-          //console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-      e.target.reset()
-      history.push('/contactSubmit')
-  }
+  //Gestionnaire du formulaire
+  const onSubmit = (data) => {
+    //console.log(data)
+
+    //API emailjs
+    emailjs.send('service_bahpx0t', 'template_7legbyy', data, 'user_NOmEJNy2vqsT2YJhWiRJ5')
+    .then((response) => {
+       console.log('SUCCESS!', response.status, response.text)
+       //Rediriger vers la page contactSubmit
+       history.push('/')
+    }, (error) =>  {
+       console.log('FAILED...', error)
+    })   
+  } 
+  
 
   return (
     <main>
@@ -39,13 +59,20 @@ const Contact = () => {
             <div className="containerForm">
                 <section>
                     <h2>Contact</h2>
-                    <form className="containerForm-form"  onSubmit={sendEmail} >
-                      <input className="form-control" type="name" placeholder="Nom complet" required name="name"/>
-                      <input className="form-control" type="email" placeholder="Adresse Email" required name="email" />
-                      <input className="form-control" type="phone" placeholder="Téléphone" required name="phone"/>
-                      <input className="form-control" type="text" placeholder="Projet" required name="project"/>
-                      <textarea placeholder="Message" name="message" ></textarea>
-                     <button type="submit" className="button-submit">Envoyer le message</button>
+                    <form className="containerForm-form"  onSubmit={handleSubmit(onSubmit)} >
+                      <input className="form-control"  placeholder="Nom et prénom" {...register("name")} />
+                      <p>{errors.name?.message}</p>
+
+                      <input className="form-control"  placeholder="Email" {...register("email")} />
+                      <p>{errors.email?.message}</p>
+
+                      <input className="form-control"  placeholder="Téléphone" {...register("phone")} />
+                      <p>{errors.phone?.message}</p>
+
+                      <textarea className="form-control" placeholder="Message" {...register("message")}></textarea>
+                      <p>{errors.message?.message}</p>
+
+                     <button type="submit" className="button-submit">Envoyer</button>
                     </form>
             </section>
             </div>             

@@ -26,7 +26,7 @@ const ContactSubmit = () => {
                     <br/>
                     <br/>
                     <br/>
-                    <h2 className="contactSubmitTitile">Merci de m'avoir contacté</h2>
+                    <p>Merci de m'avoir contacté, Votre message à été bien envoyé </p>
                     <div className="containerForm-form" >
                     <Link to="/" className="btn btn-pramary">Retour à la page d'accueil</Link>
                     </div>

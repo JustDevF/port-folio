@@ -225,7 +225,7 @@ textarea:focus{
     }
 
 
-    .containerForm-form input:nth-child(1), .containerForm-form input:nth-child(3), .containerForm-form input:nth-child(2), .containerForm-form input:nth-child(4) {
+    .containerForm-form input{
         font-size: 0.70rem;
         height: 1.40rem;
         width: 100%;
