@@ -3,10 +3,102 @@ import './About.css'
 import monCv from '../components/cv_justin_katasi.pdf'
 import MenuCertif from '../components/MenuCertif/MenuProjet'
 
+// La page about
 
-//La page about
+const diplomas = [
+  {
+    id: 1,
+    logo: 'imagesProjet/esgi-img.jpeg',
+    title: 'Master Ingénierie du Web',
+    subTitle: 'Développeur Web Fullstack',
+    period: 'Paris : 2023-2025'
+  },
+  {
+    id: 2,
+    logo: 'imagesProjet/logo_hetic.png',
+    title: 'Bachelor Développement Web',
+    subTitle: 'Concepteur développeur de solution Digitales',
+    period: 'Montreuil : 2022-2023'
+    },
+  {
+    id: 3,
+    logo: 'imagesProjet/logo_codecademy.png',
+    title: 'CodeCademy',
+    subTitle: 'Développement Web fullstack',
+    period: 'En-ligne : 2020-2022'
+  },
+  {
+    id: 4,
+    logo: 'imagesProjet/lpdl.jpg',
+    title: 'BTS SIO SLAM',
+    subTitle: 'Services Informatiques aux Organisations. option SLAM (Solutions Logicielles et Applications Métiers))',
+    period: 'Evry-Courcouronnes : 2020-2022'
+  },
+  {
+    id: 5,
+    logo: 'imagesProjet/logo-lgb-mini.png',
+    title: 'BAC PRO SN RISC',
+    subTitle: 'Systèmes numériques Option C : réseaux informatiques et systèmes communicants (RISC)',
+    period: 'Evry-Courcouronnes : 2017-2020'
+  }
+];
 
-//Le composant de la page 
+const experiences = [
+  {
+    id: 1,
+    logo: 'imagesProjet/sustainsoft-img.png',
+    location: 'Paris',
+    period: '2022-2023',
+    description: [
+     'SustainSoft est un logiciel SaaS qui aide les entreprises à mesurer, piloter et communiquer leur stratégie RSE.'
+    ]
+  },
+  {
+    id: 2,
+    logo: 'imagesProjet/orange_logo.png',
+    location: 'Paris',
+    period: '2022/3 mois',
+    description: [
+      'Conception de maquette d\'une application mobile',
+      'Développement de l\'application mobile',
+      'Fusion de l\'application mobile au site Web'
+    ]
+  },
+  {
+    id: 3,
+    logo: 'imagesProjet/kara_logo.jpg',
+    location: 'Kara',
+    period: '2021/3 mois',
+    description: [
+      'Conception de maquette de site Web',
+      'Développement de site Web',
+      'Déploiement de site web'
+    ]
+  },
+  {
+    id: 4,
+    logo: 'imagesProjet/orange_logo.png',
+    location: 'Évry',
+    period: '2020/ 1 mois',
+    description: [
+      'Conception de maquette de site Web',
+      'Développement des scripts Bash sur Linux',
+      'Intégration continue des ressources'
+    ]
+  },
+  {
+    id: 5,
+    logo: 'imagesProjet/logo-aurore.jpg',
+    location: 'Paris',
+    period: '2019/1 mois',
+    description: [
+      'Assistance à la configuration de switch et de routeurs',
+      'Gestion des postes informatiques',
+      'Maintenance des équipements de réseau'
+    ]
+  }
+];
+
 const About = () => {
   return (
     <section >
@@ -18,33 +110,26 @@ const About = () => {
                 <h3 id="formation">Formations</h3>
               </header>
               <p>Les choix de mes diplômes, entreprises, projets et certifications sont influencés par ma passion pour l'informatique et le numérique.</p>
+             
               <div className='parcoursContainer'>
-                <div className="parcoursBacPro">
-                  <img src="imagesProjet\logo_hetic.png" width="90" alt="logo_image_hetic" />
-                  <h3>Bachelor Développement Web</h3>
-                  <h4>Concepteur développeur de solution Digitales</h4>
-                  <div className='periode'>Montreuil : 2022-2023</div>
-                </div>
-                <div className="parcoursBacPro">
-                  <img src="imagesProjet\logo_codecademy.png" width="90" alt="logo_image_hetic" />
-                  <h3>CodeCademy</h3>
-                  <h4>Développement Web fullstack</h4>
-                  <div className='periode'>En-ligne : 2020-2022</div>
+                
+              <div class="container">
+                <div class="row">
+                  {diplomas.map(diploma => (
+                    <div class="col-md-4 mb-4">
+                      <div class="card">
+                        <img src={diploma.logo} class="card-img-top" alt="logo_image_hetic" />
+                        <div class="card-body">
+                          <h5 class="card-title">{diploma.title}</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">{diploma.subTitle}</h6>
+                          <p class="card-text">{diploma.period}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
-              <div className='parcoursContainer'>
-                <div className="parcoursBacPro">
-                  <img src="imagesProjet\lpdl.jpg" width="100" alt="logo_image_lpd" />
-                  <h3>BTS SIO SLAM</h3>
-                  <h4>Services Informatiques aux Organisations. option SLAM (Solutions Logicielles et Applications Métiers)) </h4>
-                  <div className='periode'>Evry-Courcouronnes : 2020-2022</div>
-                </div>
-                <div className="parcoursBacPro">
-                    <img src="imagesProjet\logo-lgb-mini.png" width="200" alt="logo_image_lgb" />
-                    <h3>BAC PRO SN RISC</h3>
-                    <h4>Systèmes numériques Option C : réseaux informatiques et systèmes communicants (RISC) </h4>
-                    <div className='periode'>Evry-Courcouronnes : 2017-2020</div>
-                </div>
+
               </div>
             </section>
             <section className='formationSec'>
@@ -53,50 +138,25 @@ const About = () => {
               </header>
               <p> Mes expériences professionnelles m’ont permises de rentre en contact et  de m'inséser dans le monde professionnel de l'informatique.</p>
               <div className='contenaireComp'>
-                <div className='comp1'>
-                  <img src='imagesProjet\orange_logo.png' width="100" alt=""/>
-                  <h3>Paris</h3>
-                  <h4 className='periode'>2022 | Stage en développement-Mobile  </h4>
-                  <div> Réalisations :</div>
-                  <ul>
-                    <li>•	Conception de maquette d'une application mobile</li>
-                    <li>•	Développement de l'application mobile</li>
-                    <li>•	Fusion de l'applciation mobile au site Web </li>
-                  </ul>
+
+              <div class="container">
+                <div class="row">
+                  {experiences.map(exp => (
+
+                    <div class="col-md-4 mb-4">
+                      <div class="card">
+                        <img src={exp.logo} class="card-img-top" alt="logo_image_hetic" />
+                        <h5 class="card-title">{exp.location}</h5>
+                        <div class="card-body">
+                          <h6 class="card-subtitle mb-2 text-muted">{exp.description}</h6>
+                          <p class="card-text">{exp.period}</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  ))}
                 </div>
-                <div className='comp1'>
-                  <img src='imagesProjet\kara_logo.jpg' width="100" alt=""/>
-                    <h3>Kara</h3>
-                    <h4 className='periode'>2021 | Stage en développement-Web  </h4>
-                    <div>Réalisations :</div>
-                  <ul>
-                      <li>•	Conception de maquette de site Web</li>
-                      <li>•	Développement de site Web </li>
-                      <li>•	Déploiement de site web </li>
-                  </ul>
-                </div>
-                <div className='comp1'>
-                  <img src='imagesProjet\orange_logo.png' width="104" alt=""/>
-                    <h3>Évry</h3>
-                    <h4 className='periode'> 2020 | Stage en développement informatique  </h4>
-                    <div>Réalisations:</div>
-                  <ul>
-                      <li>•	Conception de maquette de site Web</li>
-                      <li>•	Développement des scripts Bash sur Linux</li>
-                      <li>•	Intégration continue des ressources</li>
-                  </ul>
-                </div>
-                <div className='comp1'>
-                 <img src='imagesProjet\logo-aurore.jpg' width="230" alt="imageAssociationAurore"/>
-                    <h3>Paris</h3>
-                    <h4 className='periode'> 2019 | Stage en assistant administrateur réseau</h4>
-                    <div>Réalisations :</div>
-                  <ul>
-                      <li>•	Mise en place de l’infrastructure réseau cloud computing)</li>
-                      <li>• Maintenance des systèmes </li>
-                  </ul>
-                  
-                </div>
+              </div>
             </div>
             </section>
             <section className='formationSec'>
